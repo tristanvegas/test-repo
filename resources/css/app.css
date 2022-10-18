@@ -18,7 +18,7 @@
 }
 
 .btn{
-    width: 10rem !important;
+    /* width: 10rem !important; */
 }
 .btn-1, .btn-2{
     background-color: #3FA2F7;
@@ -89,6 +89,17 @@
     padding: .5rem !important;
 }
 
+#hero{
+    height: 100vh;
+    background-image: url('/public/img/HeroImageFQA.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#hero > div > p{
+    width: 30rem;
+}
 
 #getQuoteBox{
     position: relative;
@@ -158,7 +169,10 @@
 
 /* Desktop */
 @media only screen and (min-width: 768px) {
-    .btn{
+    #subscribeBtn{
+        width: 15rem;
+    }
+    .modal-btn{
         width: 10rem;
     }
     .btn-1, .btn-2,

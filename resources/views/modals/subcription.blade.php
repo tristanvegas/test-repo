@@ -15,7 +15,7 @@
                         <input type="email" name="" id="" placeholder="Email Address" class="form-control w-75 mx-auto my-2">
 
                         <input type="submit" value="Submit" class="btn btn-danger btn-1 my-4 d-none">
-                        <button type="button" class="btn btn-1 my-4" data-bs-toggle="modal" data-bs-target="#subscriptionConfirm">Submit</button>
+                        <button type="button" class="modal-btn btn btn-1 my-4" data-bs-toggle="modal" data-bs-target="#subscriptionConfirm">Submit</button>
                     </form>
                 </div>
             </div>
