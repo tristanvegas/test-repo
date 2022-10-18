@@ -1,3 +1,6 @@
+*{
+    font-family: raleway, Tahoma, Geneva, Verdana, sans-serif;
+}
 .bg-1{
     background-color: #101522;
 }
@@ -231,8 +234,7 @@
         width: 30rem;
     }
     .row:has(.service){
-        /* gap: 30px; */
-        width: 70rem;
+        width: 40rem;
     }
     #getQuoteBox{
         font-size: 1rem;
@@ -245,8 +247,10 @@
 
 }
 @media only screen and (min-width: 1094px) {
+    .row:has(.service){
+        width: 70rem;
+    }
     #footer-brands > img {
         height: 90px;
     }
-
 }

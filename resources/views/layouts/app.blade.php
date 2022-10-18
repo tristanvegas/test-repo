@@ -21,7 +21,7 @@
     --}}
     <nav class="navbar navbar-expand-md navbar-dark bg-1 fixed-top">
         <div class="navbar-container container-fluid">
-            <a href="" class="navbar-brand">
+            <a href="#" class="navbar-brand toTop">
                 <img src="{{ asset('img/icons/foxholeqa-new.png') }}" alt="" height="60px">
             </a>
 
@@ -32,22 +32,22 @@
             <div class="collapse navbar-collapse" id="navbar">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item active-menu">
-                        <a href="" class="nav-link text-white">Foxhole QA</a>
+                        <a href="#" class="nav-link text-white toTop">Foxhole QA</a>
                     </li>
                     <li class="nav-item">
-                        <a href="" class="nav-link text-white">Services</a>
+                        <a href="#services" class="nav-link text-white">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a href="" class="nav-link text-white">Featured Work</a>
+                        <a href="#featuredWork" class="nav-link text-white">Featured Work</a>
                     </li>
                     <li class="nav-item">
-                        <a href="" class="nav-link text-white">About Us</a>
+                        <a href="#about" class="nav-link text-white">About Us</a>
                     </li>
                     <li class="nav-item">
                         <a href="" class="nav-link text-white">Blog</a>
                     </li>
                     <li class="nav-item d-flex">
-                        <a href="" class="nav-link text-white btn btn-2 my-auto">Get Started</a>
+                        <a href="#footer" class="nav-link text-white btn btn-2 my-auto">Get Started</a>
                     </li>
                 </ul>
 
@@ -72,7 +72,7 @@
         <div class="row">
             <div class="col-md-6">
 
-                <form action="{{ url('') }}" method="post">
+                <form action="{{ url('') }}" method="post" id="footer">
                     @csrf
                     <div id="getQuoteBox" class="d-flex flex-column border bg-white thick-shadow">
                         <h1 class="text-center text-3 fw-bold">Get Started</h1>
