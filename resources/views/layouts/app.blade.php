@@ -20,7 +20,7 @@
     \__|  \__| \_______|   \_/    \_______/  \_______|\__|
     --}}
     <nav class="navbar navbar-expand-md navbar-dark bg-1 fixed-top">
-        <div class="container-fluid px-4">
+        <div class="navbar-container container-fluid">
             <a href="" class="navbar-brand">
                 <img src="{{ asset('img/icons/foxholeqa-new.png') }}" alt="" height="60px">
             </a>

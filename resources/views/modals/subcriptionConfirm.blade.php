@@ -1,5 +1,5 @@
 <div class="modal" id="subscriptionConfirm">
-    <div class="modal-dialog modal-dialog-centered modal-md">
+    <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content thick-shadow border-0">
             <div class="modal-body">
                 <div class="d-flex">

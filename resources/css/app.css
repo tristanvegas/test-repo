@@ -54,6 +54,9 @@
     color: #3FA2F7 !important;
 }
 
+.navbar-container{
+    padding: 0px 2rem;
+}
 .nav-item{
     width: fit-content;
     align-self: center;
@@ -167,10 +170,19 @@
         -webkit-box-shadow: -22px 22px 0px 0px #333333;
         -moz-box-shadow: -22px 22px 0px 0px #333333;
     }
+    .navbar-container{
+        padding: 0px 3rem;
+    }
 
+    #getQuoteBox{
+        font-size: 1rem;
+        padding: 3rem;
+        margin-left: 3rem !important;
+    }
     #footer-brands > img {
         height: 60px;
     }
+
 }
 @media only screen and (min-width: 1094px) {
     #footer-brands > img {
