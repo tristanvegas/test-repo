@@ -62,8 +62,9 @@
     \__|    \______/  \______/   \____/  \_______|\__|
     --}}
     <div class="container-fluid bg-1 px-5 py-2">
-        {{-- <div class="row">
+        <div class="row">
             <div class="col-6">
+
                 <form action="{{ url('') }}" method="post">
                     @csrf
                     <div id="getQuoteBox" class="d-flex flex-column border mt-3 mx-5 bg-white p-5 thick-shadow" style="width: 30rem;">
@@ -103,31 +104,8 @@
                     </div>
                 </div>
             </div>
-        </div> --}}
+        </div>
 
-        <form action="{{ url('') }}" method="post">
-            @csrf
-            <div id="getQuoteBox" class="d-flex flex-column border mt-3 mx-5 bg-white p-5 thick-shadow" style="width: 30rem;">
-                <h1 class="text-center text-3 fw-bold">Get Started</h1>
-                <p class="text-center">Ask for a Quote!<br>We'll get back to you within 24 hours.</p>
-
-                <div class="d-flex flex-column text-white">
-                    <input type="text" name="" id="" class="form-control" placeholder="Full Name">
-
-                    <input type="email" name="" id="" class="form-control" placeholder="Email Address">
-
-                    <input type="text" name="" id="" class="form-control" placeholder="Project Name">
-
-                    <textarea name="" id="" cols="30" rows="3" class="form-control" placeholder="Description"></textarea>
-
-                    <input type="submit" value="Get a Quote" class="btn btn-danger btn-1 mx-auto my-3 shadow" style="width: 10rem;">
-                </div>
-                <div class="text-center">
-                    <p class="text-3 mb-0">or just email us</p>
-                    <a href="" class="text-3">info@foxholeqa.com</a>
-                </div>
-            </div>
-        </form>
 
         <div class="row justify-content-between my-3 mx-auto text-white" style="width: 70rem;">
             <div class="col-4 d-flex text-dark" style="gap: 5px;">
@@ -152,5 +130,8 @@
             </div>
         </div>
     </div>
+
+@include('modals.subcription')
+@include('modals.subcriptionConfirm')
 </body>
 </html>
