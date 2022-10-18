@@ -68,7 +68,7 @@
     $$ |   \$$$$$$  |\$$$$$$  | \$$$$  |\$$$$$$$\ $$ |
     \__|    \______/  \______/   \____/  \_______|\__|
     --}}
-    <div class="container-fluid bg-1 px-4">
+    <div class="container-fluid bg-1 px-4 mt-5">
         <div class="row">
             <div class="col-md-6">
 
