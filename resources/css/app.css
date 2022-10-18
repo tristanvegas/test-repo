@@ -16,8 +16,13 @@
 .text-3{
     color: #3FA2F7;
 }
+
 .btn{
-    width: 10rem;
+    width: 10rem !important;
+}
+.btn-1, .btn-2{
+    background-color: #3FA2F7;
+    color: white;
 }
 .btn-1:hover {
     background-color: #000 !important;
@@ -30,9 +35,9 @@
     border-color: #fff !important;
 }
 .thick-shadow{
-    box-shadow: -22px 22px 0px 0px #333333;
-    -webkit-box-shadow: -22px 22px 0px 0px #333333;
-    -moz-box-shadow: -22px 22px 0px 0px #333333;
+    box-shadow: -12px 12px 0px 0px #333333;
+    -webkit-box-shadow: -12px 12px 0px 0px #333333;
+    -moz-box-shadow: -12px 12px 0px 0px #333333;
 }
 .form-control{
     background-color: #E4F1FD !important;
@@ -49,11 +54,16 @@
     color: #3FA2F7 !important;
 }
 
+.nav-item{
+    width: fit-content;
+    align-self: center;
+}
 .nav-link{
     position: relative;
     padding: 0px .2rem !important;
     font-weight: 500 !important;
     margin: .5rem;
+    width: fit-content;
 }
 .nav-link:not(.btn):after{
     position: absolute;
@@ -61,7 +71,7 @@
     left: 0;
     right: 0;
     margin: auto;
-    background-color: #b62727;
+    background-color: #3FA2F7;
     width: 0%;
     content: "";
     height: 2px;
@@ -79,9 +89,17 @@
 
 #getQuoteBox{
     position: relative;
+    font-size: .7rem;
     top: -85px;
-
+    margin: 0px 1.2rem;
+    padding: 2rem;
     border-radius: 14px;
+}
+#footer-brands {
+    gap: 20px;
+}
+#subscribeBtn{
+    margin: 2.5rem auto;
 }
 .social-icon{
     background-color: white;
@@ -103,4 +121,60 @@
 .social-icon:hover > i{
     transition: all 0.5s;
     color: white;
+}
+.modal-head{
+    /* margin-bottom: 5rem; */
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    color: #3FA2F7;
+}
+.modal-content > *{
+    font-size: .8rem;
+}
+
+
+/* smaller than 300px */
+@media only screen and (max-width: 300px) {
+    .btn{
+        width: auto !important;
+    }
+}
+
+/* Tablet */
+@media only screen and (min-width: 450px) {
+    #footer-brands > img {
+        height: 70px;
+    }
+}
+@media only screen and (min-width: 600px) {
+    #footer-brands > img {
+        height: 90px;
+    }
+}
+
+/* Desktop */
+@media only screen and (min-width: 768px) {
+    .btn{
+        width: 10rem;
+    }
+    .btn-1, .btn-2,
+    .nav-link:not(.btn):after{
+        background-color: #b62727;
+    }
+    .thick-shadow{
+        box-shadow: -22px 22px 0px 0px #333333;
+        -webkit-box-shadow: -22px 22px 0px 0px #333333;
+        -moz-box-shadow: -22px 22px 0px 0px #333333;
+    }
+
+    #footer-brands > img {
+        height: 60px;
+    }
+}
+@media only screen and (min-width: 1094px) {
+    #footer-brands > img {
+        height: 90px;
+    }
+
 }

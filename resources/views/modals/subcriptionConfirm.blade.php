@@ -10,7 +10,7 @@
                     <h1 class="modal-head">Thanks for Subscribing!</h1>
                     <p>You are now subscribed to the Foxhole<br>QA newsletter</p>
 
-                    <button class="btn btn-danger btn-1 my-1" data-bs-dismiss="modal">Exit</button>
+                    <button class="btn btn-1 my-1" data-bs-dismiss="modal">Exit</button>
                 </div>
             </div>
         </div>
