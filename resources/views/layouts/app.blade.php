@@ -31,7 +31,7 @@
     <meta property="twitter:image" content="https://www.foxholeqa.com/img/foxholeqa_logo_twitter.png" />
 
     <!-- Favicons -->
-    <link rel="icon" href="{{ asset('img/foxhole-icon.png') }}" type="image/png">
+    <link rel="icon" href="{{ asset('img/icons/foxhole-icon.png') }}" type="image/png">
 
     @vite(['resources/js/app.js'])
 </head>
