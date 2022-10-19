@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Foxhole QA</title>
+    <meta name="description"
+        content="Foxhole QA is a full service software testing shop built to be flexible and efficient when scaling your QA needs.">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
     @vite(['resources/js/app.js'])
 </head>
