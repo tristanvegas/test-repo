@@ -135,6 +135,37 @@
 }
 
 
+div.row:has(.feat-container){
+    gap: 10px;
+    /* width: 13rem; */
+}
+div.col-4:has(.feat-container){
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.75);
+
+    width: 20rem;
+    border-radius: 1rem;
+}
+div.col-4:has(.feat-container):not(:first-child){
+    display: none;
+}
+.feat-container{
+    position: relative;
+    /* height: 30rem; */
+    overflow: hidden;
+}
+
+.feat-container > div {
+    position: absolute;
+    bottom: 0;
+    height: 10rem;
+    font-size: .8rem;
+}
+.feat-container > div > div{
+    display: none;
+}
+
 #getQuoteBox{
     position: relative;
     font-size: .7rem;
@@ -191,11 +222,17 @@
 
 /* Tablet */
 @media only screen and (min-width: 450px) {
+    /* div.row:has(.feat-container){
+        width: 70rem;
+    } */
     #footer-brands > img {
         height: 70px;
     }
 }
 @media only screen and (min-width: 600px) {
+    div.row:has(.feat-container){
+        width: 40rem;
+    }
     #footer-brands > img {
         height: 90px;
     }
@@ -236,6 +273,19 @@
     .row:has(.service){
         width: 40rem;
     }
+    div.row:has(.feat-container){
+        width: 40rem;
+    }
+    div.col-4:has(.feat-container){
+        width: 18rem;
+    }
+    div.col-4:has(.feat-container):not(:first-child){
+        display: block;
+    }
+    .feat-container > img {
+        width: 100%;
+        height: auto;
+    }
     #getQuoteBox{
         font-size: 1rem;
         padding: 3rem;
@@ -248,7 +298,10 @@
 }
 @media only screen and (min-width: 1094px) {
     .row:has(.service){
-        width: 70rem;
+        width: 72rem;
+    }
+    div.row:has(.feat-container){
+        width: 72rem;
     }
     #footer-brands > img {
         height: 90px;
