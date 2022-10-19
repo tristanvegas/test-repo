@@ -9,6 +9,30 @@
         content="Foxhole QA is a full service software testing shop built to be flexible and efficient when scaling your QA needs.">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
+    {{-- OG --}}
+    <meta property="og:locale" content="en_US">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Foxhole QA">
+    <meta property="og:description"
+        content="Foxhole QA is a full service software testing shop built to be flexible and efficient when scaling your QA needs.">
+    <meta property="og:url" content="#">
+    <meta property="og:site_name" content="FoxholeQA Company">
+    <meta property="og:image" content="https://www.foxholeqa.com/img/foxholeqa-metadata.png">
+    <meta property="og:image:secure_url" content="https://www.foxholeqa.com/img/foxholeqa-metadata.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+
+    {{-- Twitter --}}
+    <meta property="twitter:url" content="#">
+    <meta property="twitter:card" content="summary">
+    <meta property="twitter:description"
+        content="Foxhole QA is a full service software testing shop built to be flexible and efficient when scaling your QA needs." />
+    <meta property="twitter:title" content="Foxhole QA">
+    <meta property="twitter:image" content="https://www.foxholeqa.com/img/foxholeqa_logo_twitter.png" />
+
+    <!-- Favicons -->
+    <link rel="icon" href="{{ asset('img/foxhole-icon.png') }}" type="image/png">
+
     @vite(['resources/js/app.js'])
 </head>
 <body>
