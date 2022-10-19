@@ -34,6 +34,11 @@
     <link rel="icon" href="{{ asset('img/icons/foxhole-icon.png') }}" type="image/png">
 
     @vite(['resources/js/app.js'])
+
+<!-- Add the slick-theme.css if you want default styling -->
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<!-- Add the slick-theme.css if you want default styling -->
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
 </head>
 <body>
     {{--

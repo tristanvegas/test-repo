@@ -128,26 +128,98 @@
                 <a href="" class="btn btn-1">View More</a>
             </div>
         </div>
-    </div>{{-- End of Featured Work --}}
+    </div>
 
 
-
-    <div class="container-fluid bg-2 py-5">
-        <div class="container text-center my-3">
-            <h1 class="display-4" style="font-weight: 900;">Some count that matters</h1>
-            <p class="fw-bold">Our achievement in the journey depicted in numbers</p>
-            <div class="d-flex justify-content-around">
-                <div class="count">
-                    <h1 class="display-6 text-3 mb-0"><span class="count-num">300</span></h1>
-                    <p class="mb-0 fw-bold">Clients</p>
-                </div>
-                <div class="count">
-                    <h1 class="display-6 text-3 mb-0"><span class="count-num">800</span>+</h1>
-                    <p class="mb-0 fw-bold">Projects Completed</p>
-                </div>
-                <div class="count">
-                    <h1 class="display-6 text-4 mb-0"><span class="count-num">1500</span>+</h1>
-                    <p class="mb-0 fw-bold">Bugs Found</p>
+    <div class="sectiom"></div>
+        <div class="container">
+            <div class="section-title">About Us</div>
+            <p>We have your back when you need that perfect launch. With our group of seasoned technologists and testers, we do the job right the first time. Saving you time and money.</p>
+        
+            <div class="row">
+                <div class="colxs-sd-offset-3 col-xs-6">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8" aria-label="Slide 9"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="9" aria-label="Slide 10"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="10" aria-label="Slide 11"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="11" aria-label="Slide 12"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="12" aria-label="Slide 13"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="13" aria-label="Slide 14"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="14" aria-label="Slide 15"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="15" aria-label="Slide 16"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="16" aria-label="Slide 17"></button>
+                        </div>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="{{ asset('img/gallery/1.jpg') }}" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="{{ asset('img/gallery/2.jpg') }}" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="{{ asset('img/gallery/3.jpg') }}" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="{{ asset('img/gallery/4.jpg') }}" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="{{ asset('img/gallery/5.jpg') }}" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="{{ asset('img/gallery/6.jpg') }}" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="{{ asset('img/gallery/7.jpg') }}" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="{{ asset('img/gallery/8.jpg') }}" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="{{ asset('img/gallery/9.jpg') }}" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="{{ asset('img/gallery/10.jpg') }}" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="{{ asset('img/gallery/11.jpg') }}" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="{{ asset('img/gallery/12.jpeg') }}" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="{{ asset('img/gallery/13.jpeg') }}" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="{{ asset('img/gallery/14.jpg') }}" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="{{ asset('img/gallery/15.jpg') }}" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="{{ asset('img/gallery/16.jpg') }}" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="{{ asset('img/gallery/17.jpg') }}" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
