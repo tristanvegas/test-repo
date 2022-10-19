@@ -131,8 +131,15 @@
     </div>
 
 
+    <div class="sectiom"></div>
+        <div class="container">
+            <div class="section-title">About Us</div>
+            
+        </div>
+    </div>
 
-
+    
+    {{-- div.sectiom>div.container>div.section-title --}}
 
 
     {{-- to hold the footer to the bottom --}}
