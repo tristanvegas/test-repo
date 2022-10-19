@@ -131,9 +131,26 @@
     </div>
 
 
-    <div class="sectiom"></div>
+    <div class="section"></div>
         <div class="container">
             <div class="section-title">About Us</div>
+            
+        </div>
+    </div>
+
+    {{--
+     $$$$$$\  $$\                             $$\           $$\   $$\
+    $$  __$$\ $$ |                            $$ |          $$ |  $$ |
+    $$ /  $$ |$$$$$$$\   $$$$$$\  $$\   $$\ $$$$$$\         $$ |  $$ | $$$$$$$\
+    $$$$$$$$ |$$  __$$\ $$  __$$\ $$ |  $$ |\_$$  _|        $$ |  $$ |$$  _____|
+    $$  __$$ |$$ |  $$ |$$ /  $$ |$$ |  $$ |  $$ |          $$ |  $$ |\$$$$$$\
+    $$ |  $$ |$$ |  $$ |$$ |  $$ |$$ |  $$ |  $$ |$$\       $$ |  $$ | \____$$\
+    $$ |  $$ |$$$$$$$  |\$$$$$$  |\$$$$$$  |  \$$$$  |      \$$$$$$  |$$$$$$$  |
+    \__|  \__|\_______/  \______/  \______/    \____/        \______/ \_______/
+    --}}
+    <div class="section" id="aboutUs">
+        <div class="container">
+            <h1 class="section-title">About Us</h1>
             <p>We have your back when you need that perfect launch. With our group of seasoned technologists and testers, we do the job right the first time. Saving you time and money.</p>
         
             <div class="row">
@@ -158,6 +175,7 @@
                             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="15" aria-label="Slide 16"></button>
                             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="16" aria-label="Slide 17"></button>
                         </div>
+                        
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <img src="{{ asset('img/gallery/1.jpg') }}" class="d-block w-100" alt="...">
@@ -222,31 +240,6 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </div>
-
-
-
-
-
-
-
-
-    {{--
-
-     $$$$$$\  $$\                             $$\           $$\   $$\
-    $$  __$$\ $$ |                            $$ |          $$ |  $$ |
-    $$ /  $$ |$$$$$$$\   $$$$$$\  $$\   $$\ $$$$$$\         $$ |  $$ | $$$$$$$\
-    $$$$$$$$ |$$  __$$\ $$  __$$\ $$ |  $$ |\_$$  _|        $$ |  $$ |$$  _____|
-    $$  __$$ |$$ |  $$ |$$ /  $$ |$$ |  $$ |  $$ |          $$ |  $$ |\$$$$$$\
-    $$ |  $$ |$$ |  $$ |$$ |  $$ |$$ |  $$ |  $$ |$$\       $$ |  $$ | \____$$\
-    $$ |  $$ |$$$$$$$  |\$$$$$$  |\$$$$$$  |  \$$$$  |      \$$$$$$  |$$$$$$$  |
-    \__|  \__|\_______/  \______/  \______/    \____/        \______/ \_______/
-    --}}
-    <div class="section" id="aboutUs">
-        <div class="container">
-            <h1 class="section-title">About Us</h1>
-
 
         </div>
         <div class="container">
