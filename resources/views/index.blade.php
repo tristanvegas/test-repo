@@ -130,14 +130,6 @@
         </div>
     </div>
 
-
-    <div class="section"></div>
-        <div class="container">
-            <div class="section-title">About Us</div>
-            
-        </div>
-    </div>
-
     {{--
      $$$$$$\  $$\                             $$\           $$\   $$\
     $$  __$$\ $$ |                            $$ |          $$ |  $$ |
@@ -175,7 +167,7 @@
                             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="15" aria-label="Slide 16"></button>
                             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="16" aria-label="Slide 17"></button>
                         </div>
-                        
+
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <img src="{{ asset('img/gallery/1.jpg') }}" class="d-block w-100" alt="...">
