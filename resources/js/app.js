@@ -8,6 +8,24 @@ import "../css/font/raleway.css";
 import "../css/font/abel.css";
 
 $(document).ready(function () {
+    $('.feat-container').each(function(){
+        $(this).hover(
+            function(){
+                $('div.read-more', this).show();
+                $('div', this).animate({
+                    height: '12rem',
+                });
+            },
+            function(){
+                $('div.read-more', this).hide();
+                $('div', this).animate({
+                    height: '10rem',
+                });
+            }
+        );
+    });
+
+
     $(".toTop").click(function () {
         this.scrollTo = 0;
     });
@@ -22,7 +40,6 @@ $(document).ready(function () {
             }
         });
     });
-
     $(".testimonial-prev").click(function () {
         const prev = $(".card-prev");
         const active = $(".card-active");

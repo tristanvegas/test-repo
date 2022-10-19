@@ -25,9 +25,6 @@
 .text-4 {
     color: #b62727;
 }
-.text-4 {
-    color: #b62727;
-}
 
 .btn-1,
 .btn-2 {
@@ -171,8 +168,9 @@ div.col-4:has(.feat-container):not(:first-child) {
     height: 10rem;
     font-size: 0.8rem;
 }
-.feat-container > div > div {
+.read-more{
     display: none;
+    margin-top: .3rem;
 }
 
 .count {
