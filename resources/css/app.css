@@ -338,6 +338,14 @@ div.col-4:has(.feat-container):not(:first-child) {
     font-size: 0.8rem;
 }
 
+.carousel-indicators {
+    position: unset !important;
+    margin-right: 0% !important;
+    margin-left: 0% !important;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
 /* smaller than 300px */
 @media only screen and (max-width: 300px) {
     .btn {
