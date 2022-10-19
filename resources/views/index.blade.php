@@ -165,7 +165,8 @@
                 </div>
                 <div class="col-md-6">
                     {{-- Vertical card carousel --}}
-                    <div class="d-flex">
+                    <div class="d-flex" id="testimonial-outer">
+                        <div class="testimonial-prev"></div>
                         <div class="d-flex flex-column" id="testimonial-container" style="margin-top: 80px;">
                             <div class="testimonial-card card-active">
                                 <div class="img">
@@ -228,6 +229,7 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="testimonial-next"></div>
                         <div class="d-flex flex-column justify-content-around" id="testimonial-controls">
                             <div class="testimonial-prev"><i class="fa-solid fa-chevron-up fa-2x"></i></div>
                             <div class="testimonial-next"><i class="fa-solid fa-chevron-down fa-2x"></i></div>

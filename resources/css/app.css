@@ -173,7 +173,25 @@ div.col-4:has(.feat-container):not(:first-child){
 }
 
 
-
+#testimonial-outer{
+    position: relative;
+}
+#testimonial-outer > .testimonial-prev{
+    position: absolute;
+    height: 45px;
+    width: 20.5rem;
+    top: 30px;
+    left: 80px;
+    cursor: pointer;
+}
+#testimonial-outer > .testimonial-next{
+    position: absolute;
+    height: 45px;
+    width: 20.5rem;
+    top: 245px;
+    left: 80px;
+    cursor: pointer;
+}
 #testimonial-container{
     position: relative;
 }
@@ -202,6 +220,7 @@ div.col-4:has(.feat-container):not(:first-child){
 
 #testimonial-container > .testimonial-card{
     transition: all 1s ease-in-out;
+    pointer-events: none;
 }
 #testimonial-container > .card-hide{
     top: -90px;
