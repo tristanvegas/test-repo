@@ -87,7 +87,7 @@
                         <div class="w-100 bg-3 text-center text-white p-3">
                             <h3 class="fw-bold">Company Name</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis reiciendis, dolorum aspernatur delectus accusamus eligendi.</p>
-                            <div class="text-start read-more mt-5">
+                            <div class="text-start read-more">
                                 <a href="#" class="text-decoration-none text-white">Read more <i class="fa-solid fa-arrow-right"></i></a>
                             </div>
                         </div>
@@ -101,7 +101,7 @@
                         <div class="w-100 bg-3 text-center text-white p-3">
                             <h3 class="fw-bold">Company Name</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis reiciendis, dolorum aspernatur delectus accusamus eligendi.</p>
-                            <div class="text-start read-more mt-5">
+                            <div class="text-start read-more">
                                 <a href="#" class="text-decoration-none text-white">Read more <i class="fa-solid fa-arrow-right"></i></a>
                             </div>
                         </div>
@@ -116,7 +116,7 @@
                         <div class="w-100 bg-3 text-center text-white p-3">
                             <h3 class="fw-bold">Company Name</h3>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis reiciendis, dolorum aspernatur delectus accusamus eligendi.</p>
-                            <div class="text-start read-more mt-5">
+                            <div class="text-start read-more">
                                 <a href="#" class="text-decoration-none text-white">Read more <i class="fa-solid fa-arrow-right"></i></a>
                             </div>
                         </div>
@@ -126,6 +126,27 @@
 
             <div class="text-center mt-5">
                 <a href="" class="btn btn-1">View More</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid bg-2 py-5">
+        <div class="container text-center my-3">
+            <h1 class="display-4" style="font-weight: 900;">Some count that matters</h1>
+            <p class="fw-bold">Our achievement in the journey depicted in numbers</p>
+            <div class="d-flex justify-content-around">
+                <div class="count">
+                    <h1 class="display-6 text-3 mb-0"><span class="count-num">300</span></h1>
+                    <p class="mb-0 fw-bold">Clients</p>
+                </div>
+                <div class="count">
+                    <h1 class="display-6 text-3 mb-0"><span class="count-num">800</span>+</h1>
+                    <p class="mb-0 fw-bold">Projects Completed</p>
+                </div>
+                <div class="count">
+                    <h1 class="display-6 text-4 mb-0"><span class="count-num">1500</span>+</h1>
+                    <p class="mb-0 fw-bold">Bugs Found</p>
+                </div>
             </div>
         </div>
     </div>
@@ -144,7 +165,7 @@
         <div class="container">
             <h1 class="section-title">About Us</h1>
             <p>We have your back when you need that perfect launch. With our group of seasoned technologists and testers, we do the job right the first time. Saving you time and money.</p>
-        
+
             <div class="row">
                 <div class="colxs-sd-offset-3 col-xs-6">
                     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
@@ -274,8 +295,7 @@
             </div>
 
         </div>
-
-        <div class="container">
+        <div class="container mt-5 py-5">
             <div class="row">
                 <div class="col-md-6">
                     <div class="container">
@@ -360,12 +380,4 @@
         </div>
     </div>
 
-
-
-
-
-    {{-- div.section>div.container>div.section-title --}}
-
-    {{-- to hold the footer to the bottom --}}
-    {{-- <div style="height: 100vh"></div> --}}
 @endsection
