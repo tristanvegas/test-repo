@@ -132,6 +132,28 @@
 
 
 
+    <div class="container-fluid bg-2 py-5">
+        <div class="container text-center my-3">
+            <h1 class="display-4" style="font-weight: 900;">Some count that matters</h1>
+            <p class="fw-bold">Our achievement in the journey depicted in numbers</p>
+            <div class="d-flex justify-content-around">
+                <div class="count">
+                    <h1 class="display-6 text-3 mb-0"><span class="count-num">300</span></h1>
+                    <p class="mb-0 fw-bold">Clients</p>
+                </div>
+                <div class="count">
+                    <h1 class="display-6 text-3 mb-0"><span class="count-num">800</span>+</h1>
+                    <p class="mb-0 fw-bold">Projects Completed</p>
+                </div>
+                <div class="count">
+                    <h1 class="display-6 text-4 mb-0"><span class="count-num">1500</span>+</h1>
+                    <p class="mb-0 fw-bold">Bugs Found</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 
 
 
