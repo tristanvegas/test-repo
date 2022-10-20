@@ -112,11 +112,6 @@
                     </div>
                 </div>
             </div>
-            <div class="text-center mt-5">
-                <a href="{{ url('services') }}" class="btn btn-1">View More</a>
-            </div>
         </div>
     </div>{{-- End of Services --}}
-
-    <div style="height: 30vh"></div>
 @endsection
