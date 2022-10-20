@@ -1,0 +1,106 @@
+#testimonial-outer {
+    position: relative;
+}
+#testimonial-outer > .testimonial-prev {
+    position: absolute;
+    height: 45px;
+    width: 20.5rem;
+    top: 30px;
+    left: 80px;
+    cursor: pointer;
+}
+#testimonial-outer > .testimonial-next {
+    position: absolute;
+    height: 45px;
+    width: 20.5rem;
+    top: 245px;
+    left: 80px;
+    cursor: pointer;
+}
+#testimonial-container {
+    position: relative;
+}
+.testimonial-card {
+    position: absolute;
+    background-color: #fff;
+    width: 25rem;
+    height: 10rem;
+    border-radius: 15px;
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    box-shadow: 10px 10px 48px -16px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 48px -16px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 48px -16px rgba(0, 0, 0, 0.75);
+}
+.testimonial-card > .img > img {
+    position: absolute;
+    top: -25px;
+    left: -25px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+#testimonial-container > .testimonial-card {
+    transition: all .5s ease-in-out;
+    pointer-events: none;
+}
+#testimonial-container > .card-hide {
+    top: -90px;
+    left: 70px;
+    opacity: 0;
+    scale: 0.3;
+    z-index: -2;
+}
+#testimonial-container > .card-active {
+    top: 0px;
+    left: 0px;
+    opacity: 1;
+    scale: 1;
+    z-index: 1;
+}
+#testimonial-controls {
+    margin: 95px 80px auto auto;
+    height: 140px;
+}
+#testimonial-container > .card-prev {
+    top: -70px;
+    left: 50px;
+    opacity: 0.3;
+    scale: 0.8;
+    z-index: -1;
+}
+#testimonial-container > .card-next {
+    top: 70px;
+    left: 50px;
+    opacity: 0.3;
+    scale: 0.8;
+    z-index: -1;
+}
+/* #testimonial-container > .card-hide-top{
+    top: -90px;
+    left: 70px;
+    opacity: 0;
+    scale: .3;
+    z-index: -2;
+}
+#testimonial-container > .card-hide-bottom{
+    top: 90px;
+    left: 70px;
+    opacity: 0;
+    scale: .3;
+    z-index: -2;
+} */
+
+.testimonial-prev,
+.testimonial-next {
+    color: #333333;
+}
+
+.testimonial-prev:hover,
+.testimonial-next:hover {
+    color: #b62727;
+    cursor: pointer;
+}

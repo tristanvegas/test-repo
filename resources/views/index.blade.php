@@ -379,8 +379,8 @@
                         </div>
                         <div class="testimonial-next"></div>
                         <div class="d-flex flex-column justify-content-around" id="testimonial-controls">
-                            <div class="testimonial-prev"><i class="fa-solid fa-chevron-up fa-2x"></i></div>
-                            <div class="testimonial-next"><i class="fa-solid fa-chevron-down fa-2x"></i></div>
+                            <div class="testimonial-next"><i class="fa-solid fa-chevron-up fa-2x"></i></div>
+                            <div class="testimonial-prev"><i class="fa-solid fa-chevron-down fa-2x"></i></div>
                         </div>
                     </div>
                 </div>
