@@ -35,32 +35,40 @@
             <h1 class="section-title">Our Services</h1>
 
             <div class="row justify-content-around mx-auto">
-                <div class="service col-3 text-center px-2 py-4">
-                    <img src="{{ asset('img/icons/automation.svg') }}" alt="" height="60px">
-                    <h5 class="text-center mb-0 mt-2">Automation</h5>
-                    <p class="text-center mb-0 mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, quod.</p>
+                <div class="col-lg-3 py-3 text-center">
+                    <div class="service shadow">
+                        <img src="{{ asset('img/icons/services/automation.svg') }}" alt="" height="60px">
+                        <h5 class="text-center mb-0 mt-2">Automation</h5>
+                        <p class="text-center mb-0 mt-4">Our team’s background in DevOps and continuous testing makes automating those repetitive test cases easier to run.</p>
+                    </div>
                 </div>
-                <div class="service col-3 shadow text-center px-2 py-4">
-                    <img src="{{ asset('img/icons/backend.svg') }}" alt="" height="60px">
-                    {{-- <i class="fa fa-code fa-4x p-2 text-1"></i> --}}
-                    <h5 class="text-center mb-0 mt-2">Back End Testing</h5>
-                    <p class="text-center mb-0 mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, eveniet.</p>
+                <div class="col-lg-3 py-3 text-center">
+                    <div class="service shadow">
+                        <img src="{{ asset('img/icons/services/backend.svg') }}" alt="" height="60px">
+                        {{-- <i class="fa fa-code fa-4x p-2 text-1"></i> --}}
+                        <h5 class="text-center mb-0 mt-2">Back End Testing</h5>
+                        <p class="text-center mb-0 mt-4">With Databases, CMS tools, APIs and other backend technologies, our team can assist to make sure those backend test cases are covered as well.</p>
+                    </div>
                 </div>
-                <div class="service col-3 shadow text-center px-2 py-4">
-                    <img src="{{ asset('img/icons/accessibility.svg') }}" alt="" height="60px">
-                    {{-- <i class="fa fa-universal-access fa-4x p-2 text-1"></i> --}}
-                    <h5 class="text-center mb-0 mt-2">Accessibility</h5>
-                    <p class="text-center mb-0 mt-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam, non.</p>
+                <div class="col-lg-3 py-3 text-center">
+                    <div class="service shadow">
+                        <img src="{{ asset('img/icons/services/accessibility.svg') }}" alt="" height="60px">
+                        {{-- <i class="fa fa-universal-access fa-4x p-2 text-1"></i> --}}
+                        <h5 class="text-center mb-0 mt-2">Accessibility</h5>
+                        <p class="text-center mb-0 mt-4">Foxhole’s accessibility report and checklist covers the latest ADA and WCAG compliance standards to address access for people with physical, sensory, or cognitive disabilities.</p>
+                    </div>
                 </div>
-                <div class="service col-3 shadow text-center px-2 py-4">
-                    <img src="{{ asset('img/icons/UI.svg') }}" alt="" height="60px">
-                    {{-- <i class="fa-solid fa-puzzle-piece fa-4x p-2 text-1"></i> --}}
-                    <h5 class="text-center mb-0 mt-2">UI & Compatibility</h5>
-                    <p class="text-center mb-0 mt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, quia.</p>
+                <div class="col-lg-3 py-3 text-center">
+                    <div class="service shadow">
+                        <img src="{{ asset('img/icons/services/UI.svg') }}" alt="" height="60px">
+                        {{-- <i class="fa-solid fa-puzzle-piece fa-4x p-2 text-1"></i> --}}
+                        <h5 class="text-center mb-0 mt-2">UI & Compatibility</h5>
+                        <p class="text-center mb-0 mt-4">With a lab of mobile devices (not emulators), desktops and other hardware, Foxhole has you covered! We can ensure the integrity of your site/app across any screen size, operating system, platform or combination necessary.</p>
+                    </div>
                 </div>
             </div>
             <div class="text-center mt-5">
-                <a href="" class="btn btn-1">View More</a>
+                <a href="{{ url('services') }}" class="btn btn-1">View More</a>
             </div>
         </div>
     </div>{{-- End of Services --}}
@@ -302,7 +310,7 @@
                 </div>
                 <div class="col-md-6">
                     {{-- Vertical card carousel --}}
-                    {{-- <div class="d-flex" id="testimonial-outer">
+                    <div class="d-flex" id="testimonial-outer">
                         <div class="testimonial-prev"></div>
                         <div class="d-flex flex-column" id="testimonial-container" style="margin-top: 80px;">
                             <div class="testimonial-card card-active">
@@ -368,10 +376,10 @@
                         </div>
                         <div class="testimonial-next"></div>
                         <div class="d-flex flex-column justify-content-around" id="testimonial-controls">
-                            <div class="testimonial-prev"><i class="fa-solid fa-chevron-up fa-2x"></i></div>
-                            <div class="testimonial-next"><i class="fa-solid fa-chevron-down fa-2x"></i></div>
+                            <div class="testimonial-next"><i class="fa-solid fa-chevron-up fa-2x"></i></div>
+                            <div class="testimonial-prev"><i class="fa-solid fa-chevron-down fa-2x"></i></div>
                         </div>
-                    </div> --}}
+                    </div>
                 </div>
             </div>
         </div>
