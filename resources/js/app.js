@@ -1,11 +1,14 @@
 import "./bootstrap";
 import "./fontawesome";
+import "../js/swiper-bundle.min"
 
 import "../sass/app.scss";
 
 import "../css/app.css";
 import "../css/font/raleway.css";
 import "../css/font/abel.css";
+import "../css/swiper-bundle.min.css"
+import "../css/swiper.css"
 
 $(document).ready(function () {
     $('.feat-container').each(function(){
@@ -85,5 +88,32 @@ $(document).ready(function () {
         // console.log(prev.next());
         // console.log(active.next());
         // console.log(next.next());
+    });
+
+    // Thumbnail
+    var swiper = new Swiper(".mySwiper", {
+        loop: true,
+        spaceBetween: 10,
+        slidesPerView: 5,
+        slidesPerGroup: 5,
+        freeMode: true,
+        watchSlidesProgress: true,
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+    });
+    
+    // carousel inner
+    var swiper2 = new Swiper(".mySwiper2", {
+        loop: true,
+        spaceBetween: 10,
+        navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+        },
+        thumbs: {
+        swiper: swiper,
+        },
     });
 });

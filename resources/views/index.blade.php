@@ -166,135 +166,132 @@
             <h1 class="section-title">About Us</h1>
             <p>We have your back when you need that perfect launch. With our group of seasoned technologists and testers, we do the job right the first time. Saving you time and money.</p>
 
-            <div class="row">
-                <div class="colxs-sd-offset-3 col-xs-6">
-                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            
+
+            <div class="container gallery">
+                <div class="col-xs-sd-offset-3 col-xs-6">
+                    <!-- Swiper -->
+                    <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="{{ asset('img/gallery/1.jpg') }}" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="{{ asset('img/gallery/2.jpg') }}" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="{{ asset('img/gallery/3.jpg') }}" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="{{ asset('img/gallery/4.jpg') }}" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="{{ asset('img/gallery/5.jpg') }}" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="{{ asset('img/gallery/6.jpg') }}" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="{{ asset('img/gallery/7.jpg') }}" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="{{ asset('img/gallery/8.jpg') }}" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="{{ asset('img/gallery/9.jpg') }}" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="{{ asset('img/gallery/10.jpg') }}" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="{{ asset('img/gallery/11.jpg') }}" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="{{ asset('img/gallery/12.jpeg') }}" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="{{ asset('img/gallery/13.jpeg') }}" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="{{ asset('img/gallery/14.jpg') }}" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="{{ asset('img/gallery/15.jpg') }}" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="{{ asset('img/gallery/16.jpg') }}" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="{{ asset('img/gallery/17.jpg') }}" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
                         
-                        <div class="row">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <img src="{{ asset('img/gallery/1.jpg') }}" class="d-block w-100" alt="...">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="{{ asset('img/gallery/2.jpg') }}" class="d-block w-100" alt="...">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="{{ asset('img/gallery/3.jpg') }}" class="d-block w-100" alt="...">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="{{ asset('img/gallery/4.jpg') }}" class="d-block w-100" alt="...">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="{{ asset('img/gallery/5.jpg') }}" class="d-block w-100" alt="...">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="{{ asset('img/gallery/6.jpg') }}" class="d-block w-100" alt="...">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="{{ asset('img/gallery/7.jpg') }}" class="d-block w-100" alt="...">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="{{ asset('img/gallery/8.jpg') }}" class="d-block w-100" alt="...">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="{{ asset('img/gallery/9.jpg') }}" class="d-block w-100" alt="...">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="{{ asset('img/gallery/10.jpg') }}" class="d-block w-100" alt="...">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="{{ asset('img/gallery/11.jpg') }}" class="d-block w-100" alt="...">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="{{ asset('img/gallery/12.jpeg') }}" class="d-block w-100" alt="...">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="{{ asset('img/gallery/13.jpeg') }}" class="d-block w-100" alt="...">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="{{ asset('img/gallery/14.jpg') }}" class="d-block w-100" alt="...">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="{{ asset('img/gallery/15.jpg') }}" class="d-block w-100" alt="...">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="{{ asset('img/gallery/16.jpg') }}" class="d-block w-100" alt="...">
-                                </div>
-                                <div class="carousel-item">
-                                    <img src="{{ asset('img/gallery/17.jpg') }}" class="d-block w-100" alt="...">
-                                </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                    
+                    <div thumbsSlider="" class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="{{ asset('img/gallery/1.jpg') }}" class="d-block w-100" alt="...">
                             </div>
-
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Previous</span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="visually-hidden">Next</span>
-                            </button>
-                        </div>
-
-                        <div class="row">
-                            <div class="carousel-indicators">
-                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" style="width: 100px;" aria-label="Slide 1">
-                                    <img src="{{ asset('img/gallery/1.jpg') }}" height="768" width="1152" alt="A photo of Stewart Warner behind a podium, talking" class="img-fluid d-block w-100">
-                                </button>
-                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-current="true" style="width: 100px;" aria-label="Slide 2">
-                                    <img src="{{ asset('img/gallery/2.jpg') }}" height="768" width="1152" alt="" class="img-fluid d-block w-100">
-                                </button>
-                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-current="true" style="width: 100px;" aria-label="Slide 3">
-                                    <img src="{{ asset('img/gallery/3.jpg') }}" height="768" width="1152" alt="" class="img-fluid d-block w-100">
-                                </button>
-                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-current="true" style="width: 100px;" aria-label="Slide 4">
-                                    <img src="{{ asset('img/gallery/4.jpg') }}" height="768" width="1152" alt="" class="img-fluid d-block w-100">
-                                </button>
-                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-current="true" style="width: 100px;" aria-label="Slide 5">
-                                    <img src="{{ asset('img/gallery/5.jpg') }}" height="768" width="1152" alt="" class="img-fluid d-block w-100">
-                                </button>
-                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-current="true" style="width: 100px;" aria-label="Slide 6">
-                                    <img src="{{ asset('img/gallery/6.jpg') }}" height="768" width="1152" alt="" class="img-fluid d-block w-100">
-                                </button>
-                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-current="true" style="width: 100px;" aria-label="Slide 7">
-                                    <img src="{{ asset('img/gallery/7.jpg') }}" height="768" width="1152" alt="" class="img-fluid d-block w-100">
-                                </button>
-                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-current="true" style="width: 100px;" aria-label="Slide 8">
-                                    <img src="{{ asset('img/gallery/8.jpg') }}" height="768" width="1152" alt="" class="img-fluid d-block w-100">
-                                </button>
-                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="8" aria-current="true" style="width: 100px;" aria-label="Slide 9">
-                                    <img src="{{ asset('img/gallery/9.jpg') }}" height="768" width="1152" alt="" class="img-fluid d-block w-100">
-                                </button>
-                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="9" aria-current="true" style="width: 100px;" aria-label="Slide 10">
-                                    <img src="{{ asset('img/gallery/10.jpg') }}" height="768" width="1152" alt="" class="img-fluid d-block w-100">
-                                </button>
-                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="10" aria-current="true" style="width: 100px;" aria-label="Slide 11">
-                                    <img src="{{ asset('img/gallery/11.jpg') }}" height="768" width="1152" alt="" class="img-fluid d-block w-100">
-                                </button>
-                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="11" aria-current="true" style="width: 100px;" aria-label="Slide 12">
-                                    <img src="{{ asset('img/gallery/12.jpeg') }}" height="768" width="1152" alt="" class="img-fluid d-block w-100">
-                                </button>
-                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="12" aria-current="true" style="width: 100px;" aria-label="Slide 13">
-                                    <img src="{{ asset('img/gallery/13.jpeg') }}" height="768" width="1152" alt="" class="img-fluid d-block w-100">
-                                </button>
-                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="13" aria-current="true" style="width: 100px;" aria-label="Slide 14">
-                                    <img src="{{ asset('img/gallery/14.jpg') }}" height="768" width="1152" alt="" class="img-fluid d-block w-100">
-                                </button>
-                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="14" aria-current="true" style="width: 100px;" aria-label="Slide 15">
-                                    <img src="{{ asset('img/gallery/15.jpg') }}" height="768" width="1152" alt="" class="img-fluid d-block w-100">
-                                </button>
-                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="15" aria-current="true" style="width: 100px;" aria-label="Slide 16">
-                                    <img src="{{ asset('img/gallery/16.jpg') }}" height="768" width="1152" alt="" class="img-fluid d-block w-100">
-                                </button>
-                                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="16" aria-current="true" style="width: 100px;" aria-label="Slide 17">
-                                    <img src="{{ asset('img/gallery/17.jpg') }}" height="768" width="1152" alt="" class="img-fluid d-block w-100">
-                                </button>
+                            <div class="swiper-slide">
+                                <img src="{{ asset('img/gallery/2.jpg') }}" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="{{ asset('img/gallery/3.jpg') }}" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="{{ asset('img/gallery/4.jpg') }}" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="{{ asset('img/gallery/5.jpg') }}" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="{{ asset('img/gallery/6.jpg') }}" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="{{ asset('img/gallery/7.jpg') }}" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="{{ asset('img/gallery/8.jpg') }}" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="{{ asset('img/gallery/9.jpg') }}" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="{{ asset('img/gallery/10.jpg') }}" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="{{ asset('img/gallery/11.jpg') }}" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="{{ asset('img/gallery/12.jpeg') }}" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="{{ asset('img/gallery/13.jpeg') }}" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="{{ asset('img/gallery/14.jpg') }}" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="{{ asset('img/gallery/15.jpg') }}" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="{{ asset('img/gallery/16.jpg') }}" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="{{ asset('img/gallery/17.jpg') }}" class="d-block w-100" alt="...">
                             </div>
                         </div>
+                        <div class="swiper-pagination"></div>
                     </div>
                 </div>
+                
             </div>
 
         </div>
+        
         <div class="container mt-5 py-5">
             <div class="row">
                 <div class="col-md-6">
@@ -305,7 +302,7 @@
                 </div>
                 <div class="col-md-6">
                     {{-- Vertical card carousel --}}
-                    <div class="d-flex" id="testimonial-outer">
+                    {{-- <div class="d-flex" id="testimonial-outer">
                         <div class="testimonial-prev"></div>
                         <div class="d-flex flex-column" id="testimonial-container" style="margin-top: 80px;">
                             <div class="testimonial-card card-active">
@@ -374,7 +371,7 @@
                             <div class="testimonial-prev"><i class="fa-solid fa-chevron-up fa-2x"></i></div>
                             <div class="testimonial-next"><i class="fa-solid fa-chevron-down fa-2x"></i></div>
                         </div>
-                    </div>
+                    </div> --}}
                 </div>
             </div>
         </div>
