@@ -14,13 +14,13 @@ $(document).ready(function () {
                 $('div.read-more', this).show();
                 $('div', this).animate({
                     height: '12rem',
-                });
+                }, 50);
             },
             function(){
                 $('div.read-more', this).hide();
                 $('div', this).animate({
                     height: '10rem',
-                });
+                }, 50);
             }
         );
     });
