@@ -51,7 +51,7 @@ $(document).ready(function () {
         loop: true,
         spaceBetween: 10,
         slidesPerView: 5,
-        slidesPerGroup: 5,
+        // slidesPerGroup: 5,
         freeMode: true,
         watchSlidesProgress: true,
         pagination: {
@@ -63,7 +63,8 @@ $(document).ready(function () {
     // carousel inner
     var swiper2 = new Swiper(".mySwiper2", {
         loop: true,
-        spaceBetween: 10,
+        spaceBetween: 30,
+        centeredSlides: true,
         navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
@@ -71,5 +72,9 @@ $(document).ready(function () {
         thumbs: {
         swiper: swiper,
         },
+        // autoplay: {
+        //   delay: 2500,
+        //   disableOnInteraction: false,
+        // },
     });
 });

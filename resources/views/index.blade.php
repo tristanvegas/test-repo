@@ -180,7 +180,7 @@
                 <div class="col-xs-sd-offset-3 col-xs-6">
                     <!-- Swiper -->
                     <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2">
-                        <div class="swiper-wrapper">
+                        <div class="swiper-wrapper test">
                             <div class="swiper-slide">
                                 <img src="{{ asset('img/gallery/1.jpg') }}" class="d-block w-100" alt="...">
                             </div>
@@ -292,7 +292,7 @@
                                 <img src="{{ asset('img/gallery/17.jpg') }}" class="d-block w-100" alt="...">
                             </div>
                         </div>
-                        <div class="swiper-pagination"></div>
+                        {{-- <div class="swiper-pagination"></div> --}}
                     </div>
                 </div>
                 
