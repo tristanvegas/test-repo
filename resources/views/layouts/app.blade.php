@@ -53,7 +53,7 @@
     --}}
     <nav class="navbar navbar-expand-md navbar-dark bg-1 fixed-top">
         <div class="navbar-container container-fluid">
-            <a href="#" class="navbar-brand toTop">
+            <a href="{{ asset('/') }}" class="navbar-brand toTop">
                 <img src="{{ asset('img/icons/foxholeqa-new.png') }}" alt="" height="60px">
             </a>
 
@@ -64,7 +64,7 @@
             <div class="collapse navbar-collapse" id="navbar">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item active-menu">
-                        <a href="#" class="nav-link text-white toTop">Foxhole QA</a>
+                        <a href="{{ asset('/') }}" class="nav-link text-white toTop">Foxhole QA</a>
                     </li>
                     <li class="nav-item">
                         <a href="#services" class="nav-link text-white">Services</a>
@@ -73,13 +73,13 @@
                         <a href="#featuredWork" class="nav-link text-white">Featured Work</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#about" class="nav-link text-white">About Us</a>
+                        <a href="#aboutUs" class="nav-link text-white">About Us</a>
                     </li>
                     <li class="nav-item">
                         <a href="" class="nav-link text-white">Blog</a>
                     </li>
                     <li class="nav-item d-flex">
-                        <a href="#footer" class="nav-link text-white btn btn-2 my-auto">Get Started</a>
+                        <a href="#getQuoteBox" class="nav-link text-white btn btn-2 my-auto">Get Started</a>
                     </li>
                 </ul>
 
@@ -88,15 +88,15 @@
     </nav>
 
 
-    {{-- 
-     $$$$$$\                       $$\                          $$\     
-    $$  __$$\                      $$ |                         $$ |    
-    $$ /  \__| $$$$$$\  $$$$$$$\ $$$$$$\    $$$$$$\  $$$$$$$\ $$$$$$\   
-    $$ |      $$  __$$\ $$  __$$\\_$$  _|  $$  __$$\ $$  __$$\\_$$  _|  
-    $$ |      $$ /  $$ |$$ |  $$ | $$ |    $$$$$$$$ |$$ |  $$ | $$ |    
-    $$ |  $$\ $$ |  $$ |$$ |  $$ | $$ |$$\ $$   ____|$$ |  $$ | $$ |$$\ 
+    {{--
+     $$$$$$\                       $$\                          $$\
+    $$  __$$\                      $$ |                         $$ |
+    $$ /  \__| $$$$$$\  $$$$$$$\ $$$$$$\    $$$$$$\  $$$$$$$\ $$$$$$\
+    $$ |      $$  __$$\ $$  __$$\\_$$  _|  $$  __$$\ $$  __$$\\_$$  _|
+    $$ |      $$ /  $$ |$$ |  $$ | $$ |    $$$$$$$$ |$$ |  $$ | $$ |
+    $$ |  $$\ $$ |  $$ |$$ |  $$ | $$ |$$\ $$   ____|$$ |  $$ | $$ |$$\
     \$$$$$$  |\$$$$$$  |$$ |  $$ | \$$$$  |\$$$$$$$\ $$ |  $$ | \$$$$  |
-    \______/  \______/ \__|  \__|  \____/  \_______|\__|  \__|  \____/                                                               
+    \______/  \______/ \__|  \__|  \____/  \_______|\__|  \__|  \____/
     --}}
     @yield('content')
 
