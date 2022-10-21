@@ -11,7 +11,7 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.3.2
       with:
-        server: ftp.foxholeqa.com
+        ftp-server: ftp.foxholeqa.com
         username: dev-tan-github-v2
         password: ${{ secrets.ftp_password }}
         protocol: ftps
