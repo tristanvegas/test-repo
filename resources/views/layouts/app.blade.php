@@ -53,7 +53,10 @@
     --}}
     <nav class="navbar navbar-expand-md navbar-dark bg-1 fixed-top">
         <div class="navbar-container container-fluid">
-            <a href="{{ asset('/') }}" class="navbar-brand toTop">
+            @php
+                $url = explode('/', url()->current());
+            @endphp
+            <a href="{{ (count($url) > 3)? url('/') : '#' }}" class="navbar-brand toTop">
                 <img src="{{ asset('img/icons/foxholeqa-new.png') }}" alt="" height="60px">
             </a>
 
@@ -64,7 +67,7 @@
             <div class="collapse navbar-collapse" id="navbar">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item active-menu">
-                        <a href="{{ asset('/') }}" class="nav-link text-white toTop">Foxhole QA</a>
+                        <a href="{{ (count($url) > 3)? url('/') : '#' }}" class="nav-link text-white toTop">Foxhole QA</a>
                     </li>
                     <li class="nav-item">
                         <a href="#services" class="nav-link text-white">Services</a>
