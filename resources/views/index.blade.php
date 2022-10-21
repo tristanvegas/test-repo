@@ -88,44 +88,50 @@
         <div class="container">
             <h1 class="section-title">Featured Work</h1>
             <div class="row justify-content-around mx-auto">
-                <div class="col-4 border px-2 py-4">
-                    <div class="feat-container">
-                        <img src="https://images.pexels.com/photos/881613/pexels-photo-881613.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" height="500px" alt="">
+                <div class="col-4">
+                    <div class="feat-outer-container border px-2 py-4">
+                        <div class="feat-container">
+                            <img src="https://images.pexels.com/photos/881613/pexels-photo-881613.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" height="500px" alt="">
 
-                        <div class="w-100 bg-3 text-center text-white p-3">
-                            <h3 class="fw-bold">Company Name</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis reiciendis, dolorum aspernatur delectus accusamus eligendi.</p>
-                            <div class="text-start read-more">
-                                <a href="#" class="text-decoration-none text-white">Read more <i class="fa-solid fa-arrow-right"></i></a>
+                            <div class="w-100 bg-3 text-center text-white p-3">
+                                <h3 class="fw-bold">Company Name</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis reiciendis, dolorum aspernatur delectus accusamus eligendi.</p>
+                                <div class="text-start read-more">
+                                    <a href="#" class="text-decoration-none text-white">Read more <i class="fa-solid fa-arrow-right"></i></a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-4 border px-2 py-4">
-                    <div class="feat-container">
-                        <img src="https://images.pexels.com/photos/881613/pexels-photo-881613.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" height="500px" alt="">
+                <div class="col-4">
+                    <div class="feat-outer-container border px-2 py-4">
+                        <div class="feat-container">
+                            <img src="https://images.pexels.com/photos/881613/pexels-photo-881613.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" height="500px" alt="">
 
-                        <div class="w-100 bg-3 text-center text-white p-3">
-                            <h3 class="fw-bold">Company Name</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis reiciendis, dolorum aspernatur delectus accusamus eligendi.</p>
-                            <div class="text-start read-more">
-                                <a href="#" class="text-decoration-none text-white">Read more <i class="fa-solid fa-arrow-right"></i></a>
+                            <div class="w-100 bg-3 text-center text-white p-3">
+                                <h3 class="fw-bold">Company Name</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis reiciendis, dolorum aspernatur delectus accusamus eligendi.</p>
+                                <div class="text-start read-more">
+                                    <a href="#" class="text-decoration-none text-white">Read more <i class="fa-solid fa-arrow-right"></i></a>
+                                </div>
                             </div>
-                        </div>
 
+                        </div>
                     </div>
                 </div>
 
-                <div class="col-4 border px-2 py-4">
-                    <div class="feat-container">
-                        <img src="https://images.pexels.com/photos/881613/pexels-photo-881613.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" height="500px" alt="">
+                <div class="col-4">
+                    <div class="feat-outer-container border px-2 py-4">
+                        <div class="feat-container">
+                            <img src="https://images.pexels.com/photos/881613/pexels-photo-881613.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" height="500px" alt="">
 
-                        <div class="w-100 bg-3 text-center text-white p-3">
-                            <h3 class="fw-bold">Company Name</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis reiciendis, dolorum aspernatur delectus accusamus eligendi.</p>
-                            <div class="text-start read-more">
-                                <a href="#" class="text-decoration-none text-white">Read more <i class="fa-solid fa-arrow-right"></i></a>
+                            <div class="w-100 bg-3 text-center text-white p-3">
+                                <h3 class="fw-bold">Company Name</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis reiciendis, dolorum aspernatur delectus accusamus eligendi.</p>
+                                <div class="text-start read-more">
+                                    <a href="#" class="text-decoration-none text-white">Read more <i class="fa-solid fa-arrow-right"></i></a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -174,7 +180,7 @@
             <h1 class="section-title">About Us</h1>
             <p>We have your back when you need that perfect launch. With our group of seasoned technologists and testers, we do the job right the first time. Saving you time and money.</p>
 
-            
+
 
             <div class="container gallery">
                 <div class="col-xs-sd-offset-3 col-xs-6">
@@ -233,11 +239,11 @@
                                 <img src="{{ asset('img/gallery/17.jpg') }}" class="d-block w-100" alt="...">
                             </div>
                         </div>
-                        
+
                         <div class="swiper-button-next"></div>
                         <div class="swiper-button-prev"></div>
                     </div>
-                    
+
                     <div thumbsSlider="" class="swiper mySwiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
@@ -295,11 +301,11 @@
                         {{-- <div class="swiper-pagination"></div> --}}
                     </div>
                 </div>
-                
+
             </div>
 
         </div>
-        
+
         <div class="container mt-5 py-5">
             <div class="row">
                 <div class="col-md-6">
