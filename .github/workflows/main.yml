@@ -11,8 +11,8 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.3.2
       with:
-        server: ftp.samkirkland.com
-        username: myFtpUserName
+        server: ftp.foxholeqa.com
+        username: dev-tan-github-v2
         password: ${{ secrets.password }}
         protocol: ftps
         port: 21 # todo replace with your web hosts ftps port
