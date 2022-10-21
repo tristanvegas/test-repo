@@ -36,14 +36,14 @@
 
             <div class="row justify-content-around mx-auto">
                 <div class="col-lg-3 py-3 text-center">
-                    <div class="service shadow">
+                    <div class="service">
                         <img src="{{ asset('img/icons/services/automation.svg') }}" alt="" height="60px">
                         <h5 class="text-center mb-0 mt-2">Automation</h5>
                         <p class="text-center mb-0 mt-4">Our team’s background in DevOps and continuous testing makes automating those repetitive test cases easier to run.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 py-3 text-center">
-                    <div class="service shadow">
+                    <div class="service">
                         <img src="{{ asset('img/icons/services/backend.svg') }}" alt="" height="60px">
                         {{-- <i class="fa fa-code fa-4x p-2 text-1"></i> --}}
                         <h5 class="text-center mb-0 mt-2">Back End Testing</h5>
@@ -51,7 +51,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 py-3 text-center">
-                    <div class="service shadow">
+                    <div class="service">
                         <img src="{{ asset('img/icons/services/accessibility.svg') }}" alt="" height="60px">
                         {{-- <i class="fa fa-universal-access fa-4x p-2 text-1"></i> --}}
                         <h5 class="text-center mb-0 mt-2">Accessibility</h5>
@@ -59,7 +59,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 py-3 text-center">
-                    <div class="service shadow">
+                    <div class="service">
                         <img src="{{ asset('img/icons/services/UI.svg') }}" alt="" height="60px">
                         {{-- <i class="fa-solid fa-puzzle-piece fa-4x p-2 text-1"></i> --}}
                         <h5 class="text-center mb-0 mt-2">UI & Compatibility</h5>
@@ -87,9 +87,9 @@
     <div class="section" id="featuredWork">
         <div class="container">
             <h1 class="section-title">Featured Work</h1>
-            <div class="row justify-content-around mx-auto">
-                <div class="col-4">
-                    <div class="feat-outer-container border px-2 py-4">
+            <div class="row justify-content-center mx-auto">
+                <div class="col-lg-4 my-2">
+                    <div class="feat-outer-container border px-2 py-4 mx-auto">
                         <div class="feat-container">
                             <img src="https://images.pexels.com/photos/881613/pexels-photo-881613.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" height="500px" alt="">
 
@@ -104,8 +104,8 @@
                     </div>
                 </div>
 
-                <div class="col-4">
-                    <div class="feat-outer-container border px-2 py-4">
+                <div class="col-lg-4 my-2">
+                    <div class="feat-outer-container border px-2 py-4 mx-auto">
                         <div class="feat-container">
                             <img src="https://images.pexels.com/photos/881613/pexels-photo-881613.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" height="500px" alt="">
 
@@ -121,8 +121,8 @@
                     </div>
                 </div>
 
-                <div class="col-4">
-                    <div class="feat-outer-container border px-2 py-4">
+                <div class="col-lg-4 my-2">
+                    <div class="feat-outer-container border px-2 py-4 mx-auto">
                         <div class="feat-container">
                             <img src="https://images.pexels.com/photos/881613/pexels-photo-881613.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" height="500px" alt="">
 

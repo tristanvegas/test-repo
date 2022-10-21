@@ -19,14 +19,14 @@
 
             <div class="row justify-content-around mx-auto">
                 <div class="col-lg-3 py-3 text-center">
-                    <div class="service shadow">
+                    <div class="service">
                         <img src="{{ asset('img/icons/services/automation.svg') }}" alt="" height="60px">
                         <h5 class="text-center mb-0 mt-2">Automation</h5>
                         <p class="text-center mb-0 mt-4">Our team’s background in DevOps and continuous testing makes automating those repetitive test cases easier to run.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 py-3 text-center">
-                    <div class="service shadow">
+                    <div class="service">
                         <img src="{{ asset('img/icons/services/backend.svg') }}" alt="" height="60px">
                         {{-- <i class="fa fa-code fa-4x p-2 text-1"></i> --}}
                         <h5 class="text-center mb-0 mt-2">Back End Testing</h5>
@@ -34,7 +34,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 py-3 text-center">
-                    <div class="service shadow">
+                    <div class="service">
                         <img src="{{ asset('img/icons/services/accessibility.svg') }}" alt="" height="60px">
                         {{-- <i class="fa fa-universal-access fa-4x p-2 text-1"></i> --}}
                         <h5 class="text-center mb-0 mt-2">Accessibility</h5>
@@ -42,7 +42,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 py-3 text-center">
-                    <div class="service shadow">
+                    <div class="service">
                         <img src="{{ asset('img/icons/services/UI.svg') }}" alt="" height="60px">
                         {{-- <i class="fa-solid fa-puzzle-piece fa-4x p-2 text-1"></i> --}}
                         <h5 class="text-center mb-0 mt-2">UI & Compatibility</h5>
@@ -50,14 +50,14 @@
                     </div>
                 </div>
                 <div class="col-lg-3 py-3 text-center">
-                    <div class="service shadow">
+                    <div class="service">
                         <img src="{{ asset('img/icons/services/design_and_comp.svg') }}" alt="" height="60px">
                         <h5 class="text-center mb-0 mt-2">Design and Comp matching</h5>
                         <p class="text-center mb-0 mt-4">With our interactive advertising experience, Foxhole has a creatively trained eye to ensure visuals are consistent, match style and font, and content placement is carried across the experience.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 py-3 text-center">
-                    <div class="service shadow">
+                    <div class="service">
                         <img src="{{ asset('img/icons/services/performance.svg') }}" alt="" height="60px">
                         {{-- <i class="fa fa-code fa-4x p-2 text-1"></i> --}}
                         <h5 class="text-center mb-0 mt-2">Performance (latency)</h5>
@@ -65,7 +65,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 py-3 text-center">
-                    <div class="service shadow">
+                    <div class="service">
                         <img src="{{ asset('img/icons/services/copy.svg') }}" alt="" height="60px">
                         {{-- <i class="fa fa-universal-access fa-4x p-2 text-1"></i> --}}
                         <h5 class="text-center mb-0 mt-2">Copy Verification</h5>
@@ -73,14 +73,14 @@
                     </div>
                 </div>
                 <div class="col-lg-3 py-3 text-center">
-                    <div class="service shadow">
+                    <div class="service">
                         <img src="{{ asset('img/icons/services/localization.svg') }}" alt="" height="60px">
                         <h5 class="text-center mb-0 mt-2">Localization (L10n)</h5>
                         <p class="text-center mb-0 mt-4">Foxhole tests global experiences often, running checks on localized and internationalized content so vital information reaches all customer bases.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 py-3 text-center">
-                    <div class="service shadow">
+                    <div class="service">
                         <img src="{{ asset('img/icons/services/stress.svg') }}" alt="" height="60px">
                         {{-- <i class="fa fa-code fa-4x p-2 text-1"></i> --}}
                         <h5 class="text-center mb-0 mt-2">Stress and Load testing</h5>
@@ -88,7 +88,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 py-3 text-center">
-                    <div class="service shadow">
+                    <div class="service">
                         <img src="{{ asset('img/icons/services/email.svg') }}" alt="" height="60px">
                         {{-- <i class="fa fa-universal-access fa-4x p-2 text-1"></i> --}}
                         <h5 class="text-center mb-0 mt-2">Email Campaign Testing</h5>
@@ -96,7 +96,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 py-3 text-center">
-                    <div class="service shadow">
+                    <div class="service">
                         <img src="{{ asset('img/icons/services/ads.svg') }}" alt="" height="60px">
                         {{-- <i class="fa-solid fa-puzzle-piece fa-4x p-2 text-1"></i> --}}
                         <h5 class="text-center mb-0 mt-2">Display (Banner) Ads</h5>
@@ -104,7 +104,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3 py-3 text-center">
-                    <div class="service shadow">
+                    <div class="service">
                         <img src="{{ asset('img/icons/services/dev.svg') }}" alt="" height="60px">
                         {{-- <i class="fa-solid fa-puzzle-piece fa-4x p-2 text-1"></i> --}}
                         <h5 class="text-center mb-0 mt-2">Design and Development</h5>
