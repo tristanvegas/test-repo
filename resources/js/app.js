@@ -30,20 +30,27 @@ $(document).ready(function () {
         );
     });
 
-
     $(".toTop").click(function () {
         this.scrollTo = 0;
     });
-    $('.count-num').each(function () {
-        $(this).prop('Counter',0).animate({
-            Counter: $(this).text()
-        }, {
-            duration: 4000,
-            easing: 'swing',
-            step: function (now) {
-                $(this).text(Math.ceil(now));
-            }
-        });
+
+    let count = 0;
+    $(window).scroll(function(){
+        if(isVisible($('#counts')) && count == 0){
+            $('.count-num').each(function () {
+                count++;
+                $(this).prop('Counter',0).animate({
+                    Counter: $(this).text()
+                }, {
+                    duration: 2000,
+                    easing: 'swing',
+                    step: function (now) {
+                        $(this).text(Math.ceil(now));
+                    }
+                });
+            });
+
+        }
     });
 
     // Thumbnail
@@ -78,3 +85,16 @@ $(document).ready(function () {
         // },
     });
 });
+
+function isVisible($el) {
+    const winTop = $(window).scrollTop();
+    const winBottom = winTop + $(window).height();
+    const elTop = $el.offset().top;
+    const elBottom = elTop + $el.height();
+    return ((elBottom <= winBottom) && (elTop >= winTop));
+}
+function changeActiveMenu(e){
+    console.log(e.html());
+    $('.active-menu').removeClass('active-menu');
+    e.parent().addClass('active-menu');
+}
