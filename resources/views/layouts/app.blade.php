@@ -36,9 +36,9 @@
     @vite(['resources/js/app.js'])
 
 <!-- Add the slick-theme.css if you want default styling -->
-<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+{{-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/> --}}
 <!-- Add the slick-theme.css if you want default styling -->
-<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+{{-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/> --}}
 </head>
 <body>
     {{--
@@ -67,16 +67,16 @@
             <div class="collapse navbar-collapse" id="navbar">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item active-menu">
-                        <a href="{{ (count($url) > 3)? url('/') : '#' }}" class="nav-link text-white toTop">Foxhole QA</a>
+                        <a href="#hero" class="nav-link hero text-white toTop">Foxhole QA</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#services" class="nav-link text-white">Services</a>
+                        <a href="#services" class="nav-link services text-white">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#featuredWork" class="nav-link text-white">Featured Work</a>
+                        <a href="#featuredWork" class="nav-link featuredWork text-white">Featured Work</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#aboutUs" class="nav-link text-white">About Us</a>
+                        <a href="#aboutUs" class="nav-link aboutUs text-white">About Us</a>
                     </li>
                     <li class="nav-item">
                         <a href="" class="nav-link text-white">Blog</a>

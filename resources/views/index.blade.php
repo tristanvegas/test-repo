@@ -144,7 +144,7 @@
         </div>
     </div>
 
-    <div class="container-fluid bg-2 py-5">
+    <div class="container-fluid bg-2 py-5" id="counts">
         <div class="container text-center my-3">
             <h1 class="display-4" style="font-weight: 900;">Some count that matters</h1>
             <p class="fw-bold">Our achievement in the journey depicted in numbers</p>
