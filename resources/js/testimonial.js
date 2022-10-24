@@ -54,6 +54,13 @@ $(".testimonial-prev").click(function () {
     }
 });
 $(".testimonial-next").click(function () {
+    testimonialNext();
+});
+window.setInterval(function(){
+    testimonialNext();
+}, 10000);
+
+function testimonialNext () {
     const prev = $(".card-prev");
     const active = $(".card-active");
     const next = $(".card-next");
@@ -75,4 +82,4 @@ $(".testimonial-next").click(function () {
     // console.log(prev.next());
     // console.log(active.next());
     // console.log(next.next());
-});
+}
