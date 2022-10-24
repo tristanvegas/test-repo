@@ -177,10 +177,8 @@
     --}}
     <div class="section" id="aboutUs">
         <div class="container">
-            <h1 class="section-title">About Us</h1>
-            <p>We have your back when you need that perfect launch. With our group of seasoned technologists and testers, we do the job right the first time. Saving you time and money.</p>
-
-
+            <h1 class="section-title aboutus">About Us</h1>
+            <p class="aboutus-p">We have your back when you need that perfect launch. With our group of seasoned <br> technologists and testers, we do the job right the first time. Saving you time and money.</p>
 
             <div class="container gallery">
                 <div class="col-xs-sd-offset-3 col-xs-6">

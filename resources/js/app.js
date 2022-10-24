@@ -67,7 +67,7 @@ $(document).ready(function () {
     var swiper = new Swiper(".mySwiper", {
         loop: true,
         spaceBetween: 10,
-        slidesPerView: 5,
+        slidesPerView: 6,
         // slidesPerGroup: 5,
         freeMode: true,
         watchSlidesProgress: true,
@@ -80,7 +80,7 @@ $(document).ready(function () {
     // carousel inner
     var swiper2 = new Swiper(".mySwiper2", {
         loop: true,
-        spaceBetween: 30,
+        spaceBetween: 10,
         centeredSlides: true,
         navigation: {
         nextEl: ".swiper-button-next",
