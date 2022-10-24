@@ -91,7 +91,7 @@
                 <div class="col-lg-4 my-2">
                     <div class="feat-outer-container border px-2 py-4 mx-auto">
                         <div class="feat-container">
-                            <img src="https://images.pexels.com/photos/881613/pexels-photo-881613.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" height="500px" alt="">
+                            <img src="https://i.picsum.photos/id/866/200/300.jpg?hmac=rcadCENKh4rD6MAp6V_ma-AyWv641M4iiOpe1RyFHeI" height="500px" alt="">
 
                             <div class="w-100 bg-3 text-center text-white p-3">
                                 <h3 class="fw-bold">Company Name</h3>
@@ -107,7 +107,7 @@
                 <div class="col-lg-4 my-2">
                     <div class="feat-outer-container border px-2 py-4 mx-auto">
                         <div class="feat-container">
-                            <img src="https://images.pexels.com/photos/881613/pexels-photo-881613.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" height="500px" alt="">
+                            <img src="https://i.picsum.photos/id/361/200/300.jpg?hmac=unS_7uvpA3Q-hJTvI1xNCnlhta-oC6XnWZ4Y11UpjAo" height="500px" alt="">
 
                             <div class="w-100 bg-3 text-center text-white p-3">
                                 <h3 class="fw-bold">Company Name</h3>
@@ -124,7 +124,7 @@
                 <div class="col-lg-4 my-2">
                     <div class="feat-outer-container border px-2 py-4 mx-auto">
                         <div class="feat-container">
-                            <img src="https://images.pexels.com/photos/881613/pexels-photo-881613.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" height="500px" alt="">
+                            <img src="https://i.picsum.photos/id/984/200/300.jpg?hmac=mLBN3lSvSl08Vh8Kw96TLY7v239gr1idtxVXvYFDkSc" height="500px" alt="">
 
                             <div class="w-100 bg-3 text-center text-white p-3">
                                 <h3 class="fw-bold">Company Name</h3>
@@ -221,10 +221,10 @@
                                 <img src="{{ asset('img/gallery/11.jpg') }}" class="d-block w-100" alt="...">
                             </div>
                             <div class="swiper-slide">
-                                <img src="{{ asset('img/gallery/12.jpeg') }}" class="d-block w-100" alt="...">
+                                <img src="{{ asset('img/gallery/12.jpg') }}" class="d-block w-100" alt="...">
                             </div>
                             <div class="swiper-slide">
-                                <img src="{{ asset('img/gallery/13.jpeg') }}" class="d-block w-100" alt="...">
+                                <img src="{{ asset('img/gallery/13.jpg') }}" class="d-block w-100" alt="...">
                             </div>
                             <div class="swiper-slide">
                                 <img src="{{ asset('img/gallery/14.jpg') }}" class="d-block w-100" alt="...">
@@ -280,10 +280,10 @@
                                 <img src="{{ asset('img/gallery/11.jpg') }}" class="d-block w-100" alt="...">
                             </div>
                             <div class="swiper-slide">
-                                <img src="{{ asset('img/gallery/12.jpeg') }}" class="d-block w-100" alt="...">
+                                <img src="{{ asset('img/gallery/12.jpg') }}" class="d-block w-100" alt="...">
                             </div>
                             <div class="swiper-slide">
-                                <img src="{{ asset('img/gallery/13.jpeg') }}" class="d-block w-100" alt="...">
+                                <img src="{{ asset('img/gallery/13.jpg') }}" class="d-block w-100" alt="...">
                             </div>
                             <div class="swiper-slide">
                                 <img src="{{ asset('img/gallery/14.jpg') }}" class="d-block w-100" alt="...">

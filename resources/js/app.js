@@ -1,6 +1,6 @@
 import "./bootstrap";
 import "./fontawesome";
-import "../js/swiper-bundle.min"
+import "./swiper-bundle.min"
 import "./testimonial";
 
 import "../sass/app.scss";
@@ -59,7 +59,7 @@ $(document).ready(function () {
             clickable: true,
         },
     });
-    
+
     // carousel inner
     var swiper2 = new Swiper(".mySwiper2", {
         loop: true,
