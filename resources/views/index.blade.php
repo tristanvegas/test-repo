@@ -139,7 +139,7 @@
             </div>
 
             <div class="text-center mt-5">
-                <a href="" class="btn btn-1">View More</a>
+                <a href="{{ url('/featuredWork') }}" class="btn btn-1">View More</a>
             </div>
         </div>
     </div>

@@ -51,6 +51,16 @@ $(document).ready(function () {
             });
 
         }
+
+        if(isVisible($('#hero'))){
+            changeActiveMenu($('.nav-link.hero'));
+        }else if(isVisible($('#services'))){
+            changeActiveMenu($('.nav-link.services'));
+        }else if(isVisible($('#featuredWork'))){
+            changeActiveMenu($('.nav-link.featuredWork'));
+        }else if(isVisible($('#aboutUs'))){
+            changeActiveMenu($('.nav-link.aboutUs'));
+        }
     });
 
     // Thumbnail
