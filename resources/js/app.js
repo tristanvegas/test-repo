@@ -57,7 +57,7 @@ $(document).ready(function () {
     var swiper = new Swiper(".mySwiper", {
         loop: true,
         spaceBetween: 10,
-        slidesPerView: 5,
+        slidesPerView: 6,
         // slidesPerGroup: 5,
         freeMode: true,
         watchSlidesProgress: true,

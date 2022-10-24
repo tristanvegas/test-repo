@@ -60,7 +60,7 @@
 }
 
 .mySwiper .swiper-slide-thumb-active {
-    opacity: 1;
+    opacity: 1 !important;
 }
 
 .swiper-slide img {
@@ -70,47 +70,59 @@
     /* object-fit: cover; */
 }
 
-.container.gallery {
-    width: auto;
-}
-
 .swiper.mySwiper2.swiper-initialized.swiper-horizontal {
     /* width: 80%; */
     overflow: hidden;
-    padding-left: 150px;
-    padding-right: 150px;
-}
-
-/* .swiper-slide.swiper-slide-duplicate.swiper-slide-prev {
-    width: 80% !important;
-    height: auto !important;
-}
-
-.swiper-slide.swiper-slide-active {
-    width: 500px !important;
-}
-
-.swiper-slide.swiper-slide-next {
-    width: 40% !important;
-    height: auto !important;
-} */
-
-.swiper-slide.swiper-slide-duplicate-prev {
-}
-
-.swiper-slide.swiper-slide-duplicate.swiper-slide-duplicate-active {
+    padding-left: 250px;
+    padding-right: 250px;
 }
 
 .swiper-button-next,
-.swiper-rtl .swiper-button-prev {
-    right: 20px;
-    left: auto;
+.swiper-button-prev {
+    position: absolute;
+    top: unset;
+    bottom: 0;
+    z-index: 1;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 240px;
+    height: 100%;
+    color: #fff;
+    text-align: center;
+    opacity: 0.5;
+    transition: opacity 0.15s ease;
+    /* background: black; */
+    font-family: unset;
+    font-size: unset;
+    content: unset;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    font-family: unset;
+    font-size: unset;
+    content: unset;
 }
 
 .swiper-button-prev,
 .swiper-rtl .swiper-button-next {
-    left: 20px;
+    left: 0px;
     right: auto;
+}
+
+.swiper-button-prev:hover,
+.swiper-button-next:hover {
+    background: rgb(255, 255, 255);
+}
+
+.swiper-button-next,
+.swiper-rtl .swiper-button-prev {
+    right: 0px;
+    left: auto;
 }
 
 .swiper-slide.swiper-slide-prev {
@@ -119,11 +131,4 @@
 
 .swiper-slide.swiper-slide-next {
     opacity: 0.4;
-}
-
-.col-xs-sd-offset-3.col-xs-6 {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    margin: 0 auto 0 auto;
 }
