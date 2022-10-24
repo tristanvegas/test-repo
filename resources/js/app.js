@@ -82,6 +82,10 @@ $(document).ready(function () {
         loop: true,
         spaceBetween: 10,
         centeredSlides: true,
+        autoplay: {
+            delay: 5000,
+            disableOnInteraction: false,
+        },
         navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
