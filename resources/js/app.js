@@ -63,7 +63,7 @@ $(document).ready(function () {
     // carousel inner
     var swiper2 = new Swiper(".mySwiper2", {
         loop: true,
-        spaceBetween: 30,
+        spaceBetween: 10,
         centeredSlides: true,
         navigation: {
         nextEl: ".swiper-button-next",

@@ -75,9 +75,10 @@
 }
 
 .swiper.mySwiper2.swiper-initialized.swiper-horizontal {
+    /* width: 80%; */
     overflow: hidden;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 /* .swiper-slide.swiper-slide-duplicate.swiper-slide-prev {
@@ -110,4 +111,19 @@
 .swiper-rtl .swiper-button-next {
     left: 20px;
     right: auto;
+}
+
+.swiper-slide.swiper-slide-prev {
+    opacity: 0.4;
+}
+
+.swiper-slide.swiper-slide-next {
+    opacity: 0.4;
+}
+
+.col-xs-sd-offset-3.col-xs-6 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto 0 auto;
 }
