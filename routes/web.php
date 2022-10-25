@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\EmailController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -21,3 +22,5 @@ Route::get('/services', function () {
 Route::get('/featuredWork', function () {
     return view('featuredWork');
 });
+
+Route::post('/GetAQuote', [EmailController::class, 'send']);

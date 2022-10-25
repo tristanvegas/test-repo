@@ -117,21 +117,27 @@
     <div class="container-fluid bg-1 px-4 mt-5">
         <div class="row">
             <div class="col-md-6">
-
-                <form action="{{ url('') }}" method="post" id="footer">
+                <form action="{{ url('GetAQuote') }}" method="post" id="footer">
                     @csrf
                     <div id="getQuoteBox" class="d-flex flex-column border bg-white thick-shadow">
                         <h1 class="text-center text-3 fw-bold">Get Started</h1>
                         <p class="text-center">Ask for a Quote!<br>We'll get back to you within 24 hours.</p>
 
+                        @if($errors->any())
+                            <div class="alert alert-danger">
+                                @foreach ($errors->all() as $error)
+                                    <p class="text-black">{{ $error }}</p>
+                                @endforeach
+                            </div>
+                        @endif
                         <div class="d-flex flex-column text-white">
-                            <input type="text" name="" id="" class="form-control" placeholder="Full Name">
+                            <input type="text" name="name" id="name" class="form-control" placeholder="Full Name">
 
-                            <input type="email" name="" id="" class="form-control" placeholder="Email Address">
+                            <input type="email" name="email" id="email" class="form-control" placeholder="Email Address">
 
-                            <input type="text" name="" id="" class="form-control" placeholder="Project Name">
+                            <input type="text" name="project" id="project" class="form-control" placeholder="Project Name">
 
-                            <textarea name="" id="" cols="30" rows="3" class="form-control" placeholder="Description"></textarea>
+                            <textarea name="description" id="description" cols="30" rows="3" class="form-control" placeholder="Description"></textarea>
 
                             <input type="submit" value="Get a Quote" class="btn btn-1 mx-auto my-3 shadow">
                         </div>
