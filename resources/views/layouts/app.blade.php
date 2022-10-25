@@ -40,7 +40,7 @@
 <!-- Add the slick-theme.css if you want default styling -->
 {{-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/> --}}
 </head>
-<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50" style="position: relative;">
+<body data-bs-spy="scroll" data-bs-target=".nav" data-bs-offset="50" style="position: relative;">
     {{--
     $$\   $$\                     $$\
     $$$\  $$ |                    $$ |
