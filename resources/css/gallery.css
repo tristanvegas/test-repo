@@ -1,0 +1,120 @@
+.gallery-outer{
+    width: 100%;
+    height: 426px;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+}
+.gallery-container{
+    display: flex;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.gallery-item{
+    margin: 0px auto;
+}
+.gallery-item img{
+    margin: 0px auto;
+    width: 40rem;
+    height: auto;
+}
+
+.gallery-active,
+.gallery-prev,
+.gallery-next,
+.gallery-hidden,
+.gallery-thumb-item{
+    transition: all .5s ease-in-out;
+}
+
+.gallery-item.gallery-active{
+    display: block;
+    position: absolute;
+    left: calc(50% - (640px /2));
+}
+.gallery-item.gallery-prev{
+    display: block;
+    opacity: .5;
+    position: absolute;
+    left: calc(50% - (640px /2) - 42rem);
+}
+.gallery-item.gallery-next{
+    display: block;
+    opacity: .5;
+    position: absolute;
+    left: calc(50% - (640px /2) + 42rem);
+}
+.gallery-item.gallery-hidden-left{
+    /* display: none; */
+    opacity: .3;
+    position: absolute;
+    left: calc(50% - (640px /2) - 84rem);
+}
+.gallery-item.gallery-hidden-right{
+    /* display: none; */
+    opacity: 0.3;
+    position: absolute;
+    left: calc(50% - (640px /2) + 84rem);
+}
+.gallery-item.gallery-hidden{
+    display: none;
+}
+
+.gallery-control-prev{
+    /* background-color: aqua; */
+    position: absolute;
+    width: 194px;
+    height: 426px;
+    z-index: 1;
+    left: 0px;
+    cursor: pointer;
+}
+.gallery-control-next{
+    /* background-color: blue; */
+    position: absolute;
+    width: 194px;
+    height: 426px;
+    z-index: 1;
+    right: 0px;
+    cursor: pointer;
+}
+
+
+
+.gallery-thumbnail{
+    margin-top: 10px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    height: 100px;
+}
+.gallery-thumb-item{
+    position: absolute;
+    opacity: .2;
+}
+.gallery-thumb-item.gallery-thumb-hidden{
+    display: none;
+}
+.gallery-thumb-item.gallery-thumb-prev-3{
+    left: calc(50% - (150px/2) - 465px);
+}
+.gallery-thumb-item.gallery-thumb-prev-2{
+    left: calc(50% - (150px/2) - 310px);
+}
+.gallery-thumb-item.gallery-thumb-prev-1{
+    left: calc(50% - (150px/2) - 155px);
+}
+.gallery-thumb-item.gallery-thumb-active{
+    left: calc(50% - (150px/2));
+    opacity: 1;
+}
+.gallery-thumb-item.gallery-thumb-next-1{
+    left: calc(50% - (150px/2) + 155px);
+}
+.gallery-thumb-item.gallery-thumb-next-2{
+    left: calc(50% - (150px/2) + 310px);
+}
+.gallery-thumb-item.gallery-thumb-next-3{
+    left: calc(50% - (150px/2) + 465px);
+}
