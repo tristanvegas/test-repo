@@ -180,10 +180,10 @@
             <h1 class="section-title aboutus">About Us</h1>
             <p class="aboutus-p">We have your back when you need that perfect launch. With our group of seasoned <br> technologists and testers, we do the job right the first time. Saving you time and money.</p>
 
-            <div class="container gallery">
-                <div class="col-xs-sd-offset-3 col-xs-6">
+            <div class="container">
+                {{-- <div class="col-xs-sd-offset-3 col-xs-6"> --}}
                     <!-- Swiper -->
-                    <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2">
+                    {{-- <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2">
                         <div class="swiper-wrapper test">
                             <div class="swiper-slide">
                                 <img src="{{ asset('img/gallery/1.jpg') }}" class="d-block w-100" alt="...">
@@ -240,9 +240,9 @@
 
                         <div class="swiper-button-next"></div>
                         <div class="swiper-button-prev"></div>
-                    </div>
+                    </div> --}}
 
-                    <div thumbsSlider="" class="swiper mySwiper">
+                    {{-- <div thumbsSlider="" class="swiper mySwiper">
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <img src="{{ asset('img/gallery/1.jpg') }}" class="d-block w-100" alt="...">
@@ -296,10 +296,122 @@
                                 <img src="{{ asset('img/gallery/17.jpg') }}" class="d-block w-100" alt="...">
                             </div>
                         </div>
-                        {{-- <div class="swiper-pagination"></div> --}}
+                    </div> --}}
+                {{-- </div> --}}
+
+
+                <div>
+                    <div class="gallery-outer">
+                        <div class="gallery-control-prev"></div>
+                        <div class="gallery-container">
+                            <div class="gallery-item gallery-hidden" data-gal-id="1">
+                                <img src="{{ asset('img/gallery/1.jpg') }}" width="1080px" height="720px" alt="">
+                            </div>
+                            <div class="gallery-item gallery-hidden-left" data-gal-id="2">
+                                <img src="{{ asset('img/gallery/2.jpg') }}" width="1080px" height="720px" alt="">
+                            </div>
+                            <div class="gallery-item gallery-prev" data-gal-id="3">
+                                <img src="{{ asset('img/gallery/3.jpg') }}" width="1080px" height="720px" alt="">
+                            </div>
+                            <div class="gallery-item gallery-active" data-gal-id="4">
+                                <img src="{{ asset('img/gallery/4.jpg') }}" width="1080px" height="720px" alt="">
+                            </div>
+                            <div class="gallery-item gallery-next" data-gal-id="5">
+                                <img src="{{ asset('img/gallery/5.jpg') }}" width="1080px" height="720px" alt="">
+                            </div>
+                            <div class="gallery-item gallery-hidden-right" data-gal-id="6">
+                                <img src="{{ asset('img/gallery/6.jpg') }}" width="1080px" height="720px" alt="">
+                            </div>
+                            <div class="gallery-item gallery-hidden" data-gal-id="7">
+                                <img src="{{ asset('img/gallery/7.jpg') }}" width="1080px" height="720px" alt="">
+                            </div>
+                            <div class="gallery-item gallery-hidden">
+                                <img src="{{ asset('img/gallery/8.jpg') }}" width="1080px" height="720px" alt="">
+                            </div>
+                            <div class="gallery-item gallery-hidden">
+                                <img src="{{ asset('img/gallery/9.jpg') }}" width="1080px" height="720px" alt="">
+                            </div>
+                            <div class="gallery-item gallery-hidden">
+                                <img src="{{ asset('img/gallery/10.jpg') }}" width="1080px" height="720px" alt="">
+                            </div>
+                            <div class="gallery-item gallery-hidden">
+                                <img src="{{ asset('img/gallery/11.jpg') }}" width="1080px" height="720px" alt="">
+                            </div>
+                            <div class="gallery-item gallery-hidden">
+                                <img src="{{ asset('img/gallery/12.jpg') }}" width="1080px" height="720px" alt="">
+                            </div>
+                            <div class="gallery-item gallery-hidden">
+                                <img src="{{ asset('img/gallery/13.jpg') }}" width="1080px" height="720px" alt="">
+                            </div>
+                            <div class="gallery-item gallery-hidden">
+                                <img src="{{ asset('img/gallery/14.jpg') }}" width="1080px" height="720px" alt="">
+                            </div>
+                            <div class="gallery-item gallery-hidden">
+                                <img src="{{ asset('img/gallery/15.jpg') }}" width="1080px" height="720px" alt="">
+                            </div>
+                            <div class="gallery-item gallery-hidden">
+                                <img src="{{ asset('img/gallery/16.jpg') }}" width="1080px" height="720px" alt="">
+                            </div>
+                            <div class="gallery-item gallery-hidden">
+                                <img src="{{ asset('img/gallery/17.jpg') }}" width="1080px" height="720px" alt="">
+                            </div>
+                        </div>
+                        <div class="gallery-control-next"></div>
+                    </div>
+                    <div class="gallery-thumbnail">
+                        <div class="gallery-thumb-item gallery-thumb-prev-3" data-gal-id="1">
+                            <img src="{{ asset('img/gallery/thumb/1.jpg') }}" height="100px" width="150px" alt="">
+                        </div>
+                        <div class="gallery-thumb-item gallery-thumb-prev-2" data-gal-id="2">
+                            <img src="{{ asset('img/gallery/thumb/2.jpg') }}" height="100px" width="150px" alt="">
+                        </div>
+                        <div class="gallery-thumb-item gallery-thumb-prev-1" data-gal-id="3">
+                            <img src="{{ asset('img/gallery/thumb/3.jpg') }}" height="100px" width="150px" alt="">
+                        </div>
+                        <div class="gallery-thumb-item gallery-thumb-active" data-gal-id="4">
+                            <img src="{{ asset('img/gallery/thumb/4.jpg') }}" height="100px" width="150px" alt="">
+                        </div>
+                        <div class="gallery-thumb-item gallery-thumb-next-1" data-gal-id="5">
+                            <img src="{{ asset('img/gallery/thumb/5.jpg') }}" height="100px" width="150px" alt="">
+                        </div>
+                        <div class="gallery-thumb-item gallery-thumb-next-2" data-gal-id="6">
+                            <img src="{{ asset('img/gallery/thumb/6.jpg') }}" height="100px" width="150px" alt="">
+                        </div>
+                        <div class="gallery-thumb-item gallery-thumb-next-3" data-gal-id="7">
+                            <img src="{{ asset('img/gallery/thumb/7.jpg') }}" height="100px" width="150px" alt="">
+                        </div>
+                        <div class="gallery-thumb-item gallery-thumb-hidden">
+                            <img src="{{ asset('img/gallery/thumb/8.jpg') }}" height="100px" width="150px" alt="">
+                        </div>
+                        <div class="gallery-thumb-item gallery-thumb-hidden">
+                            <img src="{{ asset('img/gallery/thumb/9.jpg') }}" height="100px" width="150px" alt="">
+                        </div>
+                        <div class="gallery-thumb-item gallery-thumb-hidden">
+                            <img src="{{ asset('img/gallery/thumb/10.jpg') }}" height="100px" width="150px" alt="">
+                        </div>
+                        <div class="gallery-thumb-item gallery-thumb-hidden">
+                            <img src="{{ asset('img/gallery/thumb/11.jpg') }}" height="100px" width="150px" alt="">
+                        </div>
+                        <div class="gallery-thumb-item gallery-thumb-hidden">
+                            <img src="{{ asset('img/gallery/thumb/12.jpg') }}" height="100px" width="150px" alt="">
+                        </div>
+                        <div class="gallery-thumb-item gallery-thumb-hidden">
+                            <img src="{{ asset('img/gallery/thumb/13.jpg') }}" height="100px" width="150px" alt="">
+                        </div>
+                        <div class="gallery-thumb-item gallery-thumb-hidden">
+                            <img src="{{ asset('img/gallery/thumb/14.jpg') }}" height="100px" width="150px" alt="">
+                        </div>
+                        <div class="gallery-thumb-item gallery-thumb-hidden">
+                            <img src="{{ asset('img/gallery/thumb/15.jpg') }}" height="100px" width="150px" alt="">
+                        </div>
+                        <div class="gallery-thumb-item gallery-thumb-hidden">
+                            <img src="{{ asset('img/gallery/thumb/16.jpg') }}" height="100px" width="150px" alt="">
+                        </div>
+                        <div class="gallery-thumb-item gallery-thumb-hidden">
+                            <img src="{{ asset('img/gallery/thumb/17.jpg') }}" height="100px" width="150px" alt="">
+                        </div>
                     </div>
                 </div>
-
             </div>
 
         </div>
