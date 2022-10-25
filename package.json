@@ -22,8 +22,5 @@
     "name": "Swiper - Thumbs gallery loop",
     "tags": [
         "swiper"
-    ],
-    "engines": {
-    "npm": "~1.0.20"
-  }
+    ]
 }
