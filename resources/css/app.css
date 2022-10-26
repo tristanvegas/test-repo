@@ -98,7 +98,7 @@
 
 .section {
     padding: 2rem 0px;
-    padding-bottom: 5rem;
+    /* padding-bottom: 5rem; */
     /* overflow: hidden; */
 }
 .section-title {
@@ -323,7 +323,7 @@ h1.section-title.aboutus {
 /* Tablet */
 @media only screen and (min-width: 450px) {
     #footer-brands > img {
-        height: 70px;
+        height: 60px;
     }
 }
 @media only screen and (min-width: 600px) {
@@ -392,31 +392,30 @@ h1.section-title.aboutus {
         margin-left: 3rem !important;
     }
     #footer-brands > img {
-        height: 60px;
+        height: 100px;
     }
 }
 @media only screen and (min-width: 1024px) {
     .services-card {
         width: 24%;
         text-align: center;
-        padding: 0.5rem;
-    }
-    .services-card {
         padding: .5rem !important;
-        box-shadow: none;
+    }
+    .service{
+        box-shadow: none !important;
     }
     #footer-brands > img {
-        height: 90px;
+        height: 70px;
     }
 }
 
 @media only screen and (min-width: 1200px){
     #footer-brands > img {
-        height: 100px;
+        height: 80px;
     }
 }
 @media only screen and (min-width: 1560px){
     #footer-brands > img {
-        height: 135px;
+        height: 100px;
     }
 }

@@ -12,7 +12,7 @@
     \__|  \__| \_______|\__|       \______/
     --}}
     <div id="hero" class="section d-flex">
-        <div class="my-auto text-white">
+        <div class="container my-auto text-white">
             <h1 class="display-4 fw-bolder">Foxhole QA</h1>
             <h1 class="h1">We are in the <br>Trenches with you.</h1>
             <p>We have your back when you need that perfect launch. With our group of seasoned technologists and testers, we do the job right the first time. Saving you time and money.</p>
@@ -31,7 +31,7 @@
      \______/  \_______|\__|         \_/    \__| \_______| \_______|\_______/
     --}}
     <div id="services" class="section">
-        <div class="container-fluid">
+        <div class="container">
             <h1 class="section-title">Our Services</h1>
 
             {{-- row justify-content-around mx-auto --}}
@@ -85,7 +85,7 @@
     $$ |   \$$$$$$$\ \$$$$$$$ | \$$$$  |\$$$$$$  |$$ |      \$$$$$$$\ \$$$$$$$ |      $$  /   \$$ |\$$$$$$  |$$ |      $$ | \$$\
     \__|    \_______| \_______|  \____/  \______/ \__|       \_______| \_______|      \__/     \__| \______/ \__|      \__|  \__|
     --}}
-    <div class="section" id="featuredWork">
+    <div class="section mt-5" id="featuredWork">
         <div class="container">
             <h1 class="section-title">Featured Work</h1>
             <div class="row justify-content-center mx-auto">
@@ -182,7 +182,7 @@
     $$ |  $$ |$$$$$$$  |\$$$$$$  |\$$$$$$  |  \$$$$  |      \$$$$$$  |$$$$$$$  |
     \__|  \__|\_______/  \______/  \______/    \____/        \______/ \_______/
     --}}
-    <div class="section" id="aboutUs">
+    <div class="section mt-4" id="aboutUs">
         <div class="container">
             <h1 class="section-title aboutus">About Us</h1>
             <p class="aboutus-p">We have your back when you need that perfect launch. With our group of seasoned <br> technologists and testers, we do the job right the first time. Saving you time and money.</p>
@@ -313,71 +313,73 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <div class="d-flex" id="testimonial-outer">
-                        <div class="testimonial-prev"></div>
-                        <div class="d-flex flex-column" id="testimonial-container" style="margin-top: 80px;">
-                            <div class="testimonial-card card-active">
-                                <div class="img">
-                                    <img src="https://i.picsum.photos/id/473/200/200.jpg?hmac=lXsJQxtsh73ygSCMmcWA-YqIpQ4FjdxUYkkuLTAPBfM" alt="" height="50px" width="50px">
+                    <div id="testimonial-outer" class="mt-5">
+                        <div class="testimonial-container">
+                            <div class="testimonial-prev"></div>
+                            <div id="testimonial-container">
+                                <div class="testimonial-card card-active">
+                                    <div class="img">
+                                        <img src="https://i.picsum.photos/id/473/200/200.jpg?hmac=lXsJQxtsh73ygSCMmcWA-YqIpQ4FjdxUYkkuLTAPBfM" alt="" height="50px" width="50px">
+                                    </div>
+                                    <div class="testimonial">
+                                        <p class="mb-0">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam, recusandae!</p>
+                                    </div>
+                                    <div class="profile">
+                                        <h4 class="mb-0">1. Genevieve Gilbert</h4>
+                                        <p class="mb-0">Lorem, ipsum dolor.</p>
+                                    </div>
                                 </div>
-                                <div class="testimonial">
-                                    <p class="mb-0">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam, recusandae!</p>
+                                <div class="testimonial-card card-next">
+                                    <div class="img">
+                                        <img src="https://i.picsum.photos/id/200/200/200.jpg?hmac=mk1Tu6dXHQvpaA8RfxlDUZjbWG23krNkiB9kyYoEmO8" alt="" height="50px" width="50px">
+                                    </div>
+                                    <div class="testimonial">
+                                        <p class="mb-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, esse.</p>
+                                    </div>
+                                    <div class="profile">
+                                        <h4 class="mb-0">2. Joshua Douglas</h4>
+                                        <p class="mb-0">Lorem, ipsum dolor.</p>
+                                    </div>
                                 </div>
-                                <div class="profile">
-                                    <h4 class="mb-0">1. Genevieve Gilbert</h4>
-                                    <p class="mb-0">Lorem, ipsum dolor.</p>
+                                <div class="testimonial-card card-hide">
+                                    <div class="img">
+                                        <img src="https://i.picsum.photos/id/685/200/200.jpg?hmac=1IjDFMSIa0T_JSvcq79_e2NWPwRJg61Ufbfu4eM4HvA" alt="" height="50px" width="50px">
+                                    </div>
+                                    <div class="testimonial">
+                                        <p class="mb-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit, possimus.</p>
+                                    </div>
+                                    <div class="profile">
+                                        <h4 class="mb-0">3. Gavin Figueroa</h4>
+                                        <p class="mb-0">Lorem, ipsum dolor.</p>
+                                    </div>
+                                </div>
+                                <div class="testimonial-card card-hide">
+                                    <div class="img">
+                                        <img src="https://i.picsum.photos/id/890/200/200.jpg?hmac=_chNVuEZW4X8X4PEIIJNyv3kMTFOR517hu8zLfMAf70" alt="" height="50px" width="50px">
+                                    </div>
+                                    <div class="testimonial">
+                                        <p class="mb-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit, possimus.</p>
+                                    </div>
+                                    <div class="profile">
+                                        <h4 class="mb-0">4. Marian Rios</h4>
+                                        <p class="mb-0">Lorem, ipsum dolor.</p>
+                                    </div>
+                                </div>
+                                <div class="testimonial-card card-prev">
+                                    <div class="img">
+                                        <img src="https://i.picsum.photos/id/1053/200/200.jpg?hmac=JOtR2adXynxSVClz0LNlPZjW0TJTRXc7c15kka2QoRk" alt="" height="50px" width="50px">
+                                    </div>
+                                    <div class="testimonial">
+                                        <p class="mb-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit, possimus.</p>
+                                    </div>
+                                    <div class="profile">
+                                        <h4 class="mb-0">5. Jayden Park</h4>
+                                        <p class="mb-0">Lorem, ipsum dolor.</p>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="testimonial-card card-next">
-                                <div class="img">
-                                    <img src="https://i.picsum.photos/id/200/200/200.jpg?hmac=mk1Tu6dXHQvpaA8RfxlDUZjbWG23krNkiB9kyYoEmO8" alt="" height="50px" width="50px">
-                                </div>
-                                <div class="testimonial">
-                                    <p class="mb-0">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, esse.</p>
-                                </div>
-                                <div class="profile">
-                                    <h4 class="mb-0">2. Joshua Douglas</h4>
-                                    <p class="mb-0">Lorem, ipsum dolor.</p>
-                                </div>
-                            </div>
-                            <div class="testimonial-card card-hide">
-                                <div class="img">
-                                    <img src="https://i.picsum.photos/id/685/200/200.jpg?hmac=1IjDFMSIa0T_JSvcq79_e2NWPwRJg61Ufbfu4eM4HvA" alt="" height="50px" width="50px">
-                                </div>
-                                <div class="testimonial">
-                                    <p class="mb-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit, possimus.</p>
-                                </div>
-                                <div class="profile">
-                                    <h4 class="mb-0">3. Gavin Figueroa</h4>
-                                    <p class="mb-0">Lorem, ipsum dolor.</p>
-                                </div>
-                            </div>
-                            <div class="testimonial-card card-hide">
-                                <div class="img">
-                                    <img src="https://i.picsum.photos/id/890/200/200.jpg?hmac=_chNVuEZW4X8X4PEIIJNyv3kMTFOR517hu8zLfMAf70" alt="" height="50px" width="50px">
-                                </div>
-                                <div class="testimonial">
-                                    <p class="mb-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit, possimus.</p>
-                                </div>
-                                <div class="profile">
-                                    <h4 class="mb-0">4. Marian Rios</h4>
-                                    <p class="mb-0">Lorem, ipsum dolor.</p>
-                                </div>
-                            </div>
-                            <div class="testimonial-card card-prev">
-                                <div class="img">
-                                    <img src="https://i.picsum.photos/id/1053/200/200.jpg?hmac=JOtR2adXynxSVClz0LNlPZjW0TJTRXc7c15kka2QoRk" alt="" height="50px" width="50px">
-                                </div>
-                                <div class="testimonial">
-                                    <p class="mb-0">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit, possimus.</p>
-                                </div>
-                                <div class="profile">
-                                    <h4 class="mb-0">5. Jayden Park</h4>
-                                    <p class="mb-0">Lorem, ipsum dolor.</p>
-                                </div>
-                            </div>
+                            <div class="testimonial-next"></div>
                         </div>
-                        <div class="testimonial-next"></div>
                         <div class="d-flex flex-column justify-content-around" id="testimonial-controls">
                             <div class="testimonial-next"><i class="fa-solid fa-chevron-up fa-2x"></i></div>
                             <div class="testimonial-prev"><i class="fa-solid fa-chevron-down fa-2x"></i></div>
