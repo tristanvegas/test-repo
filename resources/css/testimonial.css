@@ -1,30 +1,39 @@
 #testimonial-outer {
-    position: relative;
+    --card-height: 190px;
+    --card-width: 260px;
+    display: flex;
 }
-#testimonial-outer > .testimonial-prev {
+.testimonial-container{
+    height: calc(var(--card-height) + 150px);
+    width: calc(var(--card-width) + 130px);
+}
+.testimonial-container > .testimonial-prev {
     position: absolute;
-    height: 45px;
-    width: 20.5rem;
-    top: 30px;
-    left: 80px;
+    height: calc(var(--card-height) - 90px);
+    width: calc(var(--card-width) - 40px);
+    margin-top: 0px;
+    margin-left: 80px;
     cursor: pointer;
 }
-#testimonial-outer > .testimonial-next {
+.testimonial-container > .testimonial-next {
     position: absolute;
-    height: 45px;
-    width: 20.5rem;
-    top: 245px;
-    left: 80px;
+    height: calc(var(--card-height) - 90px);
+    width: calc(var(--card-width) - 40px);
+    margin-top: 0px;
+    margin-left: 80px;
     cursor: pointer;
 }
 #testimonial-container {
     position: relative;
+    margin: 80px 10px 0px 30px;
+    height: var(--card-height);
+    width: var(--card-width);
 }
 .testimonial-card {
     position: absolute;
     background-color: #fff;
-    width: 25rem;
-    height: 10rem;
+    width: var(--card-width);
+    height: var(--card-height);
     border-radius: 15px;
     padding: 1rem 2rem;
     display: flex;
@@ -62,7 +71,7 @@
     z-index: 1;
 }
 #testimonial-controls {
-    margin: 95px 80px auto auto;
+    margin: auto 0px;
     height: 140px;
 }
 #testimonial-container > .card-prev {
@@ -103,4 +112,31 @@
 .testimonial-next:hover {
     color: #b62727;
     cursor: pointer;
+}
+
+
+@media only screen and (min-width: 480px){
+    #testimonial-outer {
+        --card-height: 190px;
+        --card-width: 400px;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    #testimonial-outer {
+        --card-height: 190px;
+        --card-width: 290px;
+    }
+}
+@media only screen and (min-width: 1024px){
+    #testimonial-outer {
+        --card-height: 190px;
+        --card-width: 400px;
+    }
+}
+@media only screen and (min-width: 1200px){
+    #testimonial-outer {
+        --card-height: 190px;
+        --card-width: 450px;
+    }
 }
