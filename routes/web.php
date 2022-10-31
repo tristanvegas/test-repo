@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {return view('services');});
+Route::get('/', function () {return view('index');});
 
 Route::get('/services', function () {
     return view('services');
