@@ -38,14 +38,14 @@
             <div class="services-container">
                 <div class="services-card">
                     <div class="service">
-                        <img src="{{ asset('img/icons/services/automation.svg') }}" alt="" height="60px">
+                        <img src="{{ secure_asset('img/icons/services/automation.svg') }}" alt="" height="60px">
                         <h5 class="text-center mb-0 mt-2">Automation</h5>
                         <p class="text-center mb-0 mt-4">Our team’s background in DevOps and continuous testing makes automating those repetitive test cases easier to run.</p>
                     </div>
                 </div>
                 <div class="services-card">
                     <div class="service">
-                        <img src="{{ asset('img/icons/services/backend.svg') }}" alt="" height="60px">
+                        <img src="{{ secure_asset('img/icons/services/backend.svg') }}" alt="" height="60px">
                         {{-- <i class="fa fa-code fa-4x p-2 text-1"></i> --}}
                         <h5 class="text-center mb-0 mt-2">Back End Testing</h5>
                         <p class="text-center mb-0 mt-4">With Databases, CMS tools, APIs and other backend technologies, our team can assist to make sure those backend test cases are covered as well.</p>
@@ -53,7 +53,7 @@
                 </div>
                 <div class="services-card">
                     <div class="service">
-                        <img src="{{ asset('img/icons/services/accessibility.svg') }}" alt="" height="60px">
+                        <img src="{{ secure_asset('img/icons/services/accessibility.svg') }}" alt="" height="60px">
                         {{-- <i class="fa fa-universal-access fa-4x p-2 text-1"></i> --}}
                         <h5 class="text-center mb-0 mt-2">Accessibility</h5>
                         <p class="text-center mb-0 mt-4">Foxhole’s accessibility report and checklist covers the latest ADA and WCAG compliance standards to address access for people with physical, sensory, or cognitive disabilities.</p>
@@ -61,7 +61,7 @@
                 </div>
                 <div class="services-card">
                     <div class="service">
-                        <img src="{{ asset('img/icons/services/UI.svg') }}" alt="" height="60px">
+                        <img src="{{ secure_asset('img/icons/services/UI.svg') }}" alt="" height="60px">
                         {{-- <i class="fa-solid fa-puzzle-piece fa-4x p-2 text-1"></i> --}}
                         <h5 class="text-center mb-0 mt-2">UI & Compatibility</h5>
                         <p class="text-center mb-0 mt-4">With a lab of mobile devices (not emulators), desktops and other hardware, Foxhole has you covered! We can ensure the integrity of your site/app across any screen size, operating system, platform or combination necessary.</p>
@@ -193,110 +193,110 @@
                         <div class="gallery-control-prev"></div>
                         <div class="gallery-container">
                             <div class="gallery-item gallery-hidden" data-gal-id="2">
-                                <img src="{{ asset('img/gallery/1.jpg') }}" width="1080px" height="720px" alt="">
+                                <img src="{{ secure_asset('img/gallery/1.jpg') }}" width="1080px" height="720px" alt="">
                             </div>
                             <div class="gallery-item gallery-hidden-left" data-gal-id="3">
-                                <img src="{{ asset('img/gallery/2.jpg') }}" width="1080px" height="720px" alt="">
+                                <img src="{{ secure_asset('img/gallery/2.jpg') }}" width="1080px" height="720px" alt="">
                             </div>
                             <div class="gallery-item gallery-prev" data-gal-id="4">
-                                <img src="{{ asset('img/gallery/3.jpg') }}" width="1080px" height="720px" alt="">
+                                <img src="{{ secure_asset('img/gallery/3.jpg') }}" width="1080px" height="720px" alt="">
                             </div>
                             <div class="gallery-item gallery-active" data-gal-id="5">
-                                <img src="{{ asset('img/gallery/4.jpg') }}" width="1080px" height="720px" alt="">
+                                <img src="{{ secure_asset('img/gallery/4.jpg') }}" width="1080px" height="720px" alt="">
                             </div>
                             <div class="gallery-item gallery-next" data-gal-id="6">
-                                <img src="{{ asset('img/gallery/5.jpg') }}" width="1080px" height="720px" alt="">
+                                <img src="{{ secure_asset('img/gallery/5.jpg') }}" width="1080px" height="720px" alt="">
                             </div>
                             <div class="gallery-item gallery-hidden-right" data-gal-id="7">
-                                <img src="{{ asset('img/gallery/6.jpg') }}" width="1080px" height="720px" alt="">
+                                <img src="{{ secure_asset('img/gallery/6.jpg') }}" width="1080px" height="720px" alt="">
                             </div>
                             <div class="gallery-item gallery-hidden" data-gal-id="8">
-                                <img src="{{ asset('img/gallery/7.jpg') }}" width="1080px" height="720px" alt="">
+                                <img src="{{ secure_asset('img/gallery/7.jpg') }}" width="1080px" height="720px" alt="">
                             </div>
                             <div class="gallery-item gallery-hidden" data-gal-id="9">
-                                <img src="{{ asset('img/gallery/8.jpg') }}" width="1080px" height="720px" alt="">
+                                <img src="{{ secure_asset('img/gallery/8.jpg') }}" width="1080px" height="720px" alt="">
                             </div>
                             <div class="gallery-item gallery-hidden">
-                                <img src="{{ asset('img/gallery/9.jpg') }}" width="1080px" height="720px" alt="">
+                                <img src="{{ secure_asset('img/gallery/9.jpg') }}" width="1080px" height="720px" alt="">
                             </div>
                             <div class="gallery-item gallery-hidden">
-                                <img src="{{ asset('img/gallery/10.jpg') }}" width="1080px" height="720px" alt="">
+                                <img src="{{ secure_asset('img/gallery/10.jpg') }}" width="1080px" height="720px" alt="">
                             </div>
                             <div class="gallery-item gallery-hidden">
-                                <img src="{{ asset('img/gallery/11.jpg') }}" width="1080px" height="720px" alt="">
+                                <img src="{{ secure_asset('img/gallery/11.jpg') }}" width="1080px" height="720px" alt="">
                             </div>
                             <div class="gallery-item gallery-hidden">
-                                <img src="{{ asset('img/gallery/12.jpg') }}" width="1080px" height="720px" alt="">
+                                <img src="{{ secure_asset('img/gallery/12.jpg') }}" width="1080px" height="720px" alt="">
                             </div>
                             <div class="gallery-item gallery-hidden">
-                                <img src="{{ asset('img/gallery/13.jpg') }}" width="1080px" height="720px" alt="">
+                                <img src="{{ secure_asset('img/gallery/13.jpg') }}" width="1080px" height="720px" alt="">
                             </div>
                             <div class="gallery-item gallery-hidden">
-                                <img src="{{ asset('img/gallery/14.jpg') }}" width="1080px" height="720px" alt="">
+                                <img src="{{ secure_asset('img/gallery/14.jpg') }}" width="1080px" height="720px" alt="">
                             </div>
                             <div class="gallery-item gallery-hidden">
-                                <img src="{{ asset('img/gallery/15.jpg') }}" width="1080px" height="720px" alt="">
+                                <img src="{{ secure_asset('img/gallery/15.jpg') }}" width="1080px" height="720px" alt="">
                             </div>
                             <div class="gallery-item gallery-hidden">
-                                <img src="{{ asset('img/gallery/16.jpg') }}" width="1080px" height="720px" alt="">
+                                <img src="{{ secure_asset('img/gallery/16.jpg') }}" width="1080px" height="720px" alt="">
                             </div>
                             <div class="gallery-item gallery-hidden" data-gal-id="1">
-                                <img src="{{ asset('img/gallery/17.jpg') }}" width="1080px" height="720px" alt="">
+                                <img src="{{ secure_asset('img/gallery/17.jpg') }}" width="1080px" height="720px" alt="">
                             </div>
                         </div>
                         <div class="gallery-control-next"></div>
                     </div>
                     <div class="gallery-thumbnail">
                         <div class="gallery-thumb-item gallery-thumb-prev-3" data-gal-id="2">
-                            <img src="{{ asset('img/gallery/thumb/1.jpg') }}" height="100px" width="150px" alt="">
+                            <img src="{{ secure_asset('img/gallery/thumb/1.jpg') }}" height="100px" width="150px" alt="">
                         </div>
                         <div class="gallery-thumb-item gallery-thumb-prev-2" data-gal-id="3">
-                            <img src="{{ asset('img/gallery/thumb/2.jpg') }}" height="100px" width="150px" alt="">
+                            <img src="{{ secure_asset('img/gallery/thumb/2.jpg') }}" height="100px" width="150px" alt="">
                         </div>
                         <div class="gallery-thumb-item gallery-thumb-prev-1" data-gal-id="4">
-                            <img src="{{ asset('img/gallery/thumb/3.jpg') }}" height="100px" width="150px" alt="">
+                            <img src="{{ secure_asset('img/gallery/thumb/3.jpg') }}" height="100px" width="150px" alt="">
                         </div>
                         <div class="gallery-thumb-item gallery-thumb-active" data-gal-id="5">
-                            <img src="{{ asset('img/gallery/thumb/4.jpg') }}" height="100px" width="150px" alt="">
+                            <img src="{{ secure_asset('img/gallery/thumb/4.jpg') }}" height="100px" width="150px" alt="">
                         </div>
                         <div class="gallery-thumb-item gallery-thumb-next-1" data-gal-id="6">
-                            <img src="{{ asset('img/gallery/thumb/5.jpg') }}" height="100px" width="150px" alt="">
+                            <img src="{{ secure_asset('img/gallery/thumb/5.jpg') }}" height="100px" width="150px" alt="">
                         </div>
                         <div class="gallery-thumb-item gallery-thumb-next-2" data-gal-id="7">
-                            <img src="{{ asset('img/gallery/thumb/6.jpg') }}" height="100px" width="150px" alt="">
+                            <img src="{{ secure_asset('img/gallery/thumb/6.jpg') }}" height="100px" width="150px" alt="">
                         </div>
                         <div class="gallery-thumb-item gallery-thumb-next-3" data-gal-id="8">
-                            <img src="{{ asset('img/gallery/thumb/7.jpg') }}" height="100px" width="150px" alt="">
+                            <img src="{{ secure_asset('img/gallery/thumb/7.jpg') }}" height="100px" width="150px" alt="">
                         </div>
                         <div class="gallery-thumb-item gallery-thumb-next-4" data-gal-id="9">
-                            <img src="{{ asset('img/gallery/thumb/8.jpg') }}" height="100px" width="150px" alt="">
+                            <img src="{{ secure_asset('img/gallery/thumb/8.jpg') }}" height="100px" width="150px" alt="">
                         </div>
                         <div class="gallery-thumb-item gallery-thumb-hidden-right">
-                            <img src="{{ asset('img/gallery/thumb/9.jpg') }}" height="100px" width="150px" alt="">
+                            <img src="{{ secure_asset('img/gallery/thumb/9.jpg') }}" height="100px" width="150px" alt="">
                         </div>
                         <div class="gallery-thumb-item gallery-thumb-hidden">
-                            <img src="{{ asset('img/gallery/thumb/10.jpg') }}" height="100px" width="150px" alt="">
+                            <img src="{{ secure_asset('img/gallery/thumb/10.jpg') }}" height="100px" width="150px" alt="">
                         </div>
                         <div class="gallery-thumb-item gallery-thumb-hidden">
-                            <img src="{{ asset('img/gallery/thumb/11.jpg') }}" height="100px" width="150px" alt="">
+                            <img src="{{ secure_asset('img/gallery/thumb/11.jpg') }}" height="100px" width="150px" alt="">
                         </div>
                         <div class="gallery-thumb-item gallery-thumb-hidden">
-                            <img src="{{ asset('img/gallery/thumb/12.jpg') }}" height="100px" width="150px" alt="">
+                            <img src="{{ secure_asset('img/gallery/thumb/12.jpg') }}" height="100px" width="150px" alt="">
                         </div>
                         <div class="gallery-thumb-item gallery-thumb-hidden">
-                            <img src="{{ asset('img/gallery/thumb/13.jpg') }}" height="100px" width="150px" alt="">
+                            <img src="{{ secure_asset('img/gallery/thumb/13.jpg') }}" height="100px" width="150px" alt="">
                         </div>
                         <div class="gallery-thumb-item gallery-thumb-hidden">
-                            <img src="{{ asset('img/gallery/thumb/14.jpg') }}" height="100px" width="150px" alt="">
+                            <img src="{{ secure_asset('img/gallery/thumb/14.jpg') }}" height="100px" width="150px" alt="">
                         </div>
                         <div class="gallery-thumb-item gallery-thumb-hidden">
-                            <img src="{{ asset('img/gallery/thumb/15.jpg') }}" height="100px" width="150px" alt="">
+                            <img src="{{ secure_asset('img/gallery/thumb/15.jpg') }}" height="100px" width="150px" alt="">
                         </div>
                         <div class="gallery-thumb-item gallery-thumb-hidden-left">
-                            <img src="{{ asset('img/gallery/thumb/16.jpg') }}" height="100px" width="150px" alt="">
+                            <img src="{{ secure_asset('img/gallery/thumb/16.jpg') }}" height="100px" width="150px" alt="">
                         </div>
                         <div class="gallery-thumb-item gallery-thumb-prev-4" data-gal-id="1">
-                            <img src="{{ asset('img/gallery/thumb/17.jpg') }}" height="100px" width="150px" alt="">
+                            <img src="{{ secure_asset('img/gallery/thumb/17.jpg') }}" height="100px" width="150px" alt="">
                         </div>
                     </div>
                 </div>
